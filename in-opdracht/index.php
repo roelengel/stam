@@ -152,8 +152,8 @@
 					<div id="kosten-table-M-left"><img src="../_images/icons-stam_camper.svg" style="width:100%;"></div>
 					<div id="kosten-table-M-right">
 						<div id="kosten-table-M-right-1">Caravan inrichting</div>
-						<div id="kosten-table-M-right-2">100,- &nbsp; tot &nbsp; 600,-</div>
-						<div id="kosten-table-M-right-3"><img src="../_images/prijs-100-600.png" style="width:100%;"></div>
+						<div id="kosten-table-M-right-2">200,- &nbsp; tot &nbsp; 1.000,-</div>
+						<div id="kosten-table-M-right-3"><img src="../_images/prijs-200-1000.png" style="width:100%;"></div>
 						<div id="kosten-table-M-right-4">Ik stoffeer ook volledige (sta)caravans. Bij het volledig opnieuw stofferen van alle banken en matrassen ga je naar de bovenkant van deze prijsinschatting.</div>
 					</div>
 					<div id="space_20"></div>
@@ -399,9 +399,9 @@
 			</div>
 
 			<div id="blok-top-M-buttons">
-				<button class="button-orange-full w150 mt7" onclick="location.href='../contact'">Stel een vraag</button>
-				&nbsp;&nbsp;
-				<button class="button-white-line w150 mt7" onclick="location.href='../contact'">Offerte</button>
+				<button class="button-orange-full w100pr mt7" onclick="location.href='../contact'">Stel een vraag</button>
+				<br>
+				<button class="button-white-line w100pr mt7" onclick="location.href='../contact'">Offerte</button>
 			</div>
 			<div id="space_50"></div> 	
 			
@@ -457,8 +457,8 @@
 					<div id="kosten-table-M-left"><img src="../_images/icons-stam_camper.svg" style="width:100%;"></div>
 					<div id="kosten-table-M-right">
 						<div id="kosten-table-M-right-1">Caravan inrichting</div>
-						<div id="kosten-table-M-right-2">100,- &nbsp; tot &nbsp; 600,-</div>
-						<div id="kosten-table-M-right-3"><img src="../_images/prijs-100-600.png" style="width:100%;"></div>
+						<div id="kosten-table-M-right-2">200,- &nbsp; tot &nbsp; 1.000,-</div>
+						<div id="kosten-table-M-right-3"><img src="../_images/prijs-200-1000.png" style="width:100%;"></div>
 						<div id="kosten-table-M-right-4">Ik stoffeer ook volledige (sta) caravans. Bij het volledig opnieuw stofferen van alle banken en matrassen ga je naar de bovenkant van deze prijsinschatting.</div>
 					</div>
 					<div id="space_20"></div>
@@ -490,41 +490,38 @@
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/index.php?category=effen" class="link-white">
 					<img src="../_images/stof1.jpg" class="car-image" >
-					<div id="caroussel-M-subtitle">Effen</div>
-					<div id="caroussel-M-title">Hopper Teal</div>
+					<div id="caroussel-M-title">Teal</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/index.php?category=patroon">
 					<img src="../_images/stof2.jpg"  class="car-image">
-					<div id="caroussel-M-subtitle">Patroon</div>
 					<div id="caroussel-M-title">Gobelin Barbados Negro</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/index.php?category=buitenstof">
 					<img src="../_images/stof3.jpg"  class="car-image">
-					<div id="caroussel-M-subtitle">Buitenstof</div>
-					<div id="caroussel-M-title">Screen 21-N Oranje/Terra</div>
+					<div id="caroussel-M-title">Buitenstof Terra</div>
 					</a>
 				</div>	
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/index.php?category=rib">
 					<img src="../_images/stof4.jpg" class="car-image" >
-					<div id="caroussel-M-subtitle">Rib</div>
-					<div id="caroussel-M-title">Runagain Geel</div>
+					<div id="caroussel-M-title">Grove Rib Geel</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/">
 					<img src="../_images/meerstoffen.jpg" class="car-image" >
-					<div id="caroussel-M-subtitle">Bekijk meer</div>
 					<div id="caroussel-M-title">Kies uit meer dan 1000 stoffen</div>
 					</a>
 				</div>					
-				<div id="caroussel-M-emptyitem">&nbsp;</div>
+				<div id="caroussel-L-M-emptyitem">&nbsp;</div>
+
 				<div id="space_20"></div>
 			</div>
+			
 			<div id="space_20"></div>
 			<div id="blok-top-M-buttons">
 				<button class="button-white-line " onclick="location.href='../stoffenkiezer/index.php'">Stoffenkiezer</button>
@@ -565,7 +562,7 @@
 							<div id="list-item-M">
 								<a href="stoel.php?id=<? echo $id;?>" class="link-white">
 									<div id="list-item-inopdracht-M-left">
-										<img src="../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" >
+										<img src="../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" class="border-S" >
 									</div>
 									<div id="list-item-inopdracht-M-right">
 										<div id="space_90"></div>

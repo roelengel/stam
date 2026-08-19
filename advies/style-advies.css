@@ -1,0 +1,23 @@
+/* Advies-artikelen: zelfde palet als style2.css (dark: #230702, accent: #E58505, light: #AAE0C9) */
+
+#advies-hero-D{width:100%; max-height:480px; overflow:hidden;}
+#advies-hero-D img{width:100%; display:block; object-fit:cover; max-height:480px;}
+
+#advies-hero-M{width:100%; max-height:220px; overflow:hidden;}
+#advies-hero-M img{width:100%; display:block; object-fit:cover; max-height:220px;}
+
+#advies-content-D{width:800px; max-width:90%; margin:auto; font-family: aileron, sans-serif; font-weight:300; color:#0F1108;}
+#advies-content-M{width:90%; margin:auto; font-family: aileron, sans-serif; font-weight:300; color:#0F1108;}
+
+#advies-intro{font-size:18px; line-height:1.5;}
+
+#advies-prijsblok{background-color:#230702; color:#ffffff; border-radius:16px; padding:30px; text-align:center;}
+#advies-prijsblok-label{font-size:14px; text-transform:uppercase; letter-spacing:1px; color:#AAE0C9;}
+#advies-prijsblok-prijs{font-size:42px; font-weight:900; margin-top:8px;}
+#advies-prijsblok-context{font-size:14px; color:#AAE0C9; margin-top:10px;}
+
+#advies-body{font-size:16px; line-height:1.6;}
+#advies-body h2{font-size:22px; margin-top:40px; margin-bottom:10px;}
+#advies-body p{margin-bottom:16px;}
+#advies-body a{color:#431307; text-decoration:underline;}
+#advies-body a:hover{color:#E58505;}

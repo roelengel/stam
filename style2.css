@@ -10,9 +10,50 @@ html {
 
 body a{text-decoration:none;}
 
-h1{font-size:30px; font-family: aileron, sans-serif; font-weight: 900;}
-h1{font-size:30px; font-family: aileron, sans-serif; font-weight: 900;}
-h2{font-size:24px; font-family: aileron, sans-serif; font-weight: 900;}
+@font-face {
+    font-family: "ClashDisplay";
+    src: url("_fonts/ClashDisplay-Extralight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url("_fonts/ClashDisplay-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url("_fonts/ClashDisplay-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url("_fonts/ClashDisplay-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url("_fonts/ClashDisplay-Semibold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url("_fonts/ClashDisplay-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1{font-size:30px; font-family: ClashDisplay, sans-serif; font-weight: 600; line-height:1; margin-top: 10px;margin-bottom: 10px;}
+h2{font-size:24px; font-family: ClashDisplay, sans-serif; font-weight: 600; line-height:1;}
 
 h1 a{text-decoration:none;}
 
@@ -22,10 +63,11 @@ h1 a{text-decoration:none;}
 .font-weight-600{font-weight:600;}
 .font-weight-750{font-weight:750;}
 .font-weight-900{font-weight:900;}
-.tag-footer-D{background-color: #AAE0C9; color:#230702; font-size:12px; text-transform: uppercase; border-radius: 30px; padding: 5px 10px 5px 10px;}
+.tag-footer-D{background-color: #AAE0C9; color:#230702; font-size:12px; text-transform: uppercase; border-radius: 4px; padding: 5px 10px 5px 10px;}
 
+.border-S{border-radius:10px;}
 
-.tag-regio-D{background-color: #AAE0C9;  margin: 7px 2px 0 0;color:#230702; font-size:14px; text-transform: uppercase; border-radius: 30px; padding: 5px 10px 5px 10px; display: inline-block;}
+.tag-regio-D{background-color: #230702;  margin: 7px 2px 0 0;color:#ffffff; font-size:14px; text-transform: uppercase; border-radius: 30px; padding: 5px 10px 5px 10px; display: inline-block;}
 	.tag-regio-D a{color:#230702; text-decoration: none;}
 	.tag-regio-D a:hover{background-color:#E58505; color:#ffffff; text-decoration: none;}
 
@@ -35,8 +77,10 @@ h1 a{text-decoration:none;}
 #tag-regio-M{background-color: #AAE0C9; height:26px; color:#230702; font-size:14px; text-transform: uppercase; border-radius: 30px; padding: 5px 10px 5px 10px;}
 	#tag-regio-M a{color:#230702; text-decoration: none;}
 
-
+.s18{font-size:18px;}
 .s24{font-size:24px;}
+.s30-small-margin{font-size:30px; margin: 10px 0; /* boven 10px, onder 10px */}
+
 .s36{font-size:36px;}
 .s50{font-size:50px;}
 
@@ -67,9 +111,26 @@ h1 a{text-decoration:none;}
 #space_90{width:100%; height: 90px; clear:both;}
 #space_100{width:100%; height: 100px; clear:both;}
 
+/* animatie stoel voor en na */
+  .ba {position: relative;width: 100%;max-width: 700px;overflow: hidden; }
+  .ba .voor { width: 100%; display: block; }
+  /* NA-container krijgt exacte pixelhoogte en -breedte */
+  .ba .na-wrap { position: absolute; top: 0; left: 0; overflow: hidden; z-index: 2;}
+  /* NA-foto staat 100% stil, nooit schalen */
+  .ba .na { position: absolute; top: 0;left: 0; width: 100%; height: 100%;       /* <<< vaste hoogte, geen auto */ object-fit: cover;  /* <<< geen scaling door breedte */ display: block;}
+  .ba .line {  position: absolute;  top: 0;width: 7px;height: 100%;background: white;z-index: 3;pointer-events: none;}
 
-.uitverkocht-tag{ font-size:12px;background:#431307; color:#ffffff;border-radius:50px;height: 26px;line-height: 26px;display: inline-block;text-align: center;margin-right: 6px;padding-left:15px; padding-right:15px;}
-.uitverkocht-tag-white{ font-size:12px;background:#ffffff; color:#ffffff;border-radius:50px;height: 26px;line-height: 26px;display: inline-block;text-align: center;margin-right: 6px;padding-left:15px; padding-right:15px;}
+
+
+
+
+
+
+
+
+
+
+
 
 /* DESKTOP */
 /* DESKTOP */
@@ -103,9 +164,9 @@ h1 a{text-decoration:none;}
 #content-D-content-header{width:100%;  }
 
 /* header desktop  */
-#header-D{width:100%; background-color:#AAE0C9;}
+#header-D{width:100%; background-color:#FFFFFF;}
 	#header-D-dark{background-color:#431307; color:#FFFFFF;}
-	#header-D-realdark{background-color:#230702; color:#FFFFFF;}
+	#header-D-realdark{background-color:#431307; color:#FFFFFF;}
 	#header-D-blue{background-color:#4D5382; color:#FFFFFF;}
 
 	#header-D-overmij{background-color:#16302B; color:#ffffff;}
@@ -123,6 +184,14 @@ h1 a{text-decoration:none;}
 #header-D-content-left{width: 600px; text-align: left; }
 
 
+/* CATEGORIEN desktop  */
+#categorien-D{width:100%; max-width: 1400px; margin:auto; background-color:red;}
+	#categorie-D {height: 450px; width: 30%; border-radius:10px; float:left;}
+	.categorie-D-space{margin-left:5%;}
+	#categorie-D-text {height: 450px; width: 90%; color:#ffffff;background: linear-gradient( to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.7) 100%  );padding-left:5%; padding-right:5%; font-size:22px;  font-family: ClashDisplay; font-weight: 500; border-radius: 10px 10px;display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; white-space: normal;}
+
+	#categorie-D:hover #categorie-D-text {background: linear-gradient( to bottom,rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.6) 60%,rgba(0,0,0,0.7) 100%);}
+	.tag-category{background-color: #AAE0C9; color:#230702; font-size:12px; text-transform: uppercase; border-radius: 4px; padding: 5px 10px 5px 10px;display: inline-block; width: auto; align-self: flex-start; margin-bottom:5px;}
 
 /* HOME over mij desktop  */
 #over-mij-D{width:100%; background-color:#ffffff; margin-top:-1px;}
@@ -131,7 +200,7 @@ h1 a{text-decoration:none;}
 #over-mij-D-text{width:650px; font-weight: 600; font-size:18px;float: left;color:#230702;  position: relative;}
 
 /* Carrousel HOME */
-#carr-D-dark{width:100%; background-color:#230702;color:#ffffff;margin-top:-2px; white-space: nowrap;overflow-y: hidden;overflow-x: scroll; text-align:left;}
+#carr-D-dark{width:100%; background-color:#431307;color:#ffffff;margin-top:-2px; white-space: nowrap;overflow-y: hidden;overflow-x: scroll; text-align:left;}
 	#carr-D-blue{width:100%; background-color:#3C4168;color:#ffffff;margin-top:-2px; white-space: nowrap;overflow-y: hidden;overflow-x: scroll; text-align:left;}
 	#carr-D-eigenlijn{width:100%; background-color:#ffffff;color:#0F1108;margin-top:-2px; white-space: nowrap;overflow-y: hidden;overflow-x: scroll; text-align:left;}
 
@@ -142,16 +211,16 @@ h1 a{text-decoration:none;}
 	#carr-D-type1-space{width: 30px; ;display:inline-block;}
 #carr-D-type1 a{text-decoration:none; color:#ffffff;}
 #caroussel-D-subtitle{width:90%; font-weight: 300; font-size: 14px; margin-top:20px; white-space: normal;}
-#caroussel-D-title{width:90%; font-weight: 600; font-size: 18px; margin-top:5px; white-space: normal;}
+#caroussel-D-title{width:90%; font-family: ClashDisplay; font-weight: 500;font-size: 18px; margin-top:5px; white-space: normal;}
 #caroussel-D-price{width: 90%; font-weight: 900; font-size:28px; margin-top:10px; white-space: normal;}
 /* Carrousel eigen lijn HOME */
 #carr-D-type2{width:350px; display: inline-block; vertical-align: top;margin-left:0px;}
 	#carr-D-type2-firstspace{width:5%; display:inline-block;}
 	#carr-D-type2-space{width: 30px; ;display:inline-block;}
 #carr-D-type2 a{text-decoration:none; color:#ffffff;}
-#carrousel-L-D-bottom{width:100%; height: 140px;margin-top:-5px; }
+#carrousel-L-D-bottom{width:100%; height: 140px;margin-top:-5px; border-radius: 0px 0px 10px 10px}
 #caroussel-L-D-subtitle{width:90%; margin-left:5%; font-weight: 300; margin-top:20px; white-space: normal;}
-#caroussel-L-D-title{width:90%; margin-left:5%; font-weight: 600; margin-top:5px; white-space: normal;}
+#caroussel-L-D-title{width:90%; margin-left:5%;  margin-top:5px; white-space: normal; font-family: ClashDisplay; font-weight: 500;}
 #caroussel-L-D-price{width: 90%; margin-left:5%; font-weight: 900; font-size:28px; margin-top:10px; white-space: normal;}
 
 
@@ -186,6 +255,10 @@ h1 a{text-decoration:none;}
 #gallery-D-item-bottompart{width:100%; clear:both; height:120px; }
 
 
+.uitverkocht-tag{ font-size:12px;background:#431307; color:#ffffff;border-radius:50px;height: 26px;line-height: 26px;display: inline-block;text-align: center;margin-right: 6px;padding-left:15px; padding-right:15px;}
+.uitverkocht-tag-white{ font-size:12px;background:#ffffff; color:#ffffff;border-radius:50px;height: 26px;line-height: 26px;display: inline-block;text-align: center;margin-right: 6px;padding-left:15px; padding-right:15px;}
+
+
 /* Stoel detail pagina */
 #stoel-D-car{width:100%; background-color:#ffffff;color:#230702; white-space: nowrap;overflow-y: hidden;overflow-x: scroll; text-align:left;}
 #stoel-D-car-item{width: 34%; height:100%;display: inline-block;  vertical-align: top;margin-left:-2px;  background-repeat: no-repeat; background-size: cover; background-position: center center;}
@@ -201,6 +274,8 @@ h1 a{text-decoration:none;}
 
 #small-content-smaller{width:500px; background-color:#ffffff; text-align: left;}
 
+/* IN OPDRACHT 2 KOLOMMEN */
+#2-colomns-content{width:90%;margin:auto;  max-width: 1400px; text-align: left; line-height: 1.6;}
 
 
 /* MOBILE */
@@ -239,7 +314,7 @@ h1 a{text-decoration:none;}
 #blok-top-M{width: 100%;  margin-top:0px;}
 #blok-top-M-title{width:90%; margin-left:5%;}
 #blok-top-M-subtitle{width:90%; margin-left:5%; font-size: 16px;}
-#blok-top-M-image{width:95%; margin-left:5%; }
+#blok-top-M-image{width:90%; margin-left:5%; }
 #blok-top-M-buttons{width:90%; margin-left:5%; text-align:left;}
 
 
@@ -259,10 +334,14 @@ h1 a{text-decoration:none;}
 	#caroussel-M-item a{color:#ffffff; text-decoration: none;}
 	#caroussel-M-item a:hover{color:#AAE0C9;}
 #caroussel-M-emptyitem{width:2.5%; display:inline-block; float:left;}
-.car-image{width:100%; border-radius:0px;}
+.car-image{width:100%; border-radius:7px;}
 .car-image:hover{ -webkit-filter:  brightness(70%);}
+.car-image-M{width:100%; border-radius:10px;}
+.car-image-M:hover{ -webkit-filter:  brightness(70%);}
+.car-image-top{width:100%; border-radius:10px 10px 0px 0px;}
+.car-image-top:hover{ -webkit-filter:  brightness(70%);}
 #caroussel-M-subtitle{width:90%; font-weight: 300; margin-top:20px; white-space: normal;}
-#caroussel-M-title{width:90%; font-weight: 600; margin-top:5px; white-space: normal;}
+#caroussel-M-title{width:90%; font-family: ClashDisplay; font-weight: 500; margin-top:15px; white-space: normal;}
 #caroussel-M-price{width: 90%; font-weight: 900; font-size:28px; margin-top:10px; white-space: normal;}
 
 
@@ -270,8 +349,14 @@ h1 a{text-decoration:none;}
 #caroussel-L-M-item {width:280px; margin-left:2.5%; display: inline-block; vertical-align: top;}
 	#caroussel-L-M-item a{color:#ffffff; text-decoration: none;}
 	#caroussel--LM-item a:hover{color:#AAE0C9;}
+
+#caroussel-L-M-item-category {width:280px; height:450px; margin-left:2.5%; display: inline-block; vertical-align: top; border-radius:10px;}
+	#category-M {color:#ffffff;background: linear-gradient( to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.7) 100%  );height: 450px; width: 250px; padding-left:15px; padding-right:15px; font-size:22px;  font-family: ClashDisplay; font-weight: 500; border-radius: 0px 0px 10px 10px;display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; white-space: normal;}
+
+	.tag-category{background-color: #AAE0C9; color:#230702; font-size:12px; text-transform: uppercase; border-radius: 4px; padding: 5px 10px 5px 10px;display: inline-block; width: auto; align-self: flex-start; margin-bottom:5px;}
+
 #caroussel-L-M-emptyitem{width:2.5%; display:inline-block;}
-#carrousel-L-M-bottom{width:100%; height: 160px;margin-top:-5px; color:#ffffff; padding-bottom:20px;}
+#carrousel-L-M-bottom{width:100%; height: 160px;margin-top:-5px; color:#ffffff; padding-bottom:20px; border-radius:0px 0px 10px 10px;}
 #carrousel-L-M-bottom-darktext{width:100%; height: 130px;margin-top:-5px; color:#230702;}
 #caroussel-L-M-subtitle{width:90%; margin-left:5%; font-weight: 300; margin-top:20px; white-space: normal;}
 #caroussel-L-M-title{width:90%; margin-left:5%; min-height:60px;margin-top:5px; white-space: normal; font-family: aileron, sans-serif; font-weight: 300;}
@@ -302,7 +387,7 @@ h1 a{text-decoration:none;}
 #navigatie-stoel-M-5{width:5%; float:left;}
 
 /*  STOEL PAGINA*/
-#stoel-content-M-blok{width:200px; min-height: 120px; padding-bottom:10px;  position:fixed; bottom: 12%; left: 5%; z-index:997; color:#ffffff;}
+#stoel-content-M-blok{width:200px; min-height: 120px; padding-bottom:10px; border-radius:10px; position:fixed; bottom: 12%; left: 5%; z-index:997; color:#ffffff;}
 	#stoel-content-M-blok-title{width:90%; margin-left:5%; margin-top:10px;font-weight: 300; }
 	#stoel-content-M-blok-price{width:90%; margin-left:5%; margin-top:10px;font-weight: 900; font-size:28px;}
 #stoel-content-M-image{width:100%;  }
@@ -340,7 +425,7 @@ h1 a{text-decoration:none;}
 #pagina-inopdracht-M-content{width:90%;  margin:auto;}
 
 #pagina-M{width:100%; background-color:#ffffff; margin-top:0px;}
-#pagina-M-content{width:90%;  margin:auto;}
+#pagina-M-content{width:90%;  margin:auto; line-height:1.6;}
 
 #kosten-table-M{width:100%; clear:both; border-top: 1px solid #0F1108; }
 #kosten-table-M-left{width:15%; float:left; }
@@ -467,18 +552,20 @@ h1 a{text-decoration:none;}
 .w200{width:200px;}
 .w250{width:250px;}
 
+.w100pr{width:100%;}
+
 .m7{margin-left:7px;}
 .mt7{margin-top:7px;}
 
 
 .button-light-full{
-	height:40px;
+	height:55px;
   border: 1px solid #AAE0C9;
   background-color: #AAE0C9;
   color: #230702;
-  padding-left: 25px;  padding-right: 25px;  padding-bottom: 7px;  padding-top: 7px;  
+  padding-left: 35px;  padding-right: 35px;  padding-bottom: 7px;  padding-top: 7px;  
   text-align: center;
-	border-radius: 0px;
+	border-radius: 100px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
@@ -487,14 +574,15 @@ h1 a{text-decoration:none;}
 }
 .button-light-full:hover {background-color: #E58505;  border: 1px solid #E58505;}
 
+
 .button-orange-full{
-	height:40px;
+	height:55px;
   border: 1px solid #E58505;
   background-color: #E58505;
   color: #0F1108;
-  padding-left: 25px;  padding-right: 25px;  padding-bottom: 7px;  padding-top: 7px;  
+  padding-left: 35px;  padding-right: 35px;  padding-bottom: 7px;  padding-top: 7px;  
   text-align: center;
-	border-radius: 0px;
+	border-radius: 100px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
@@ -505,13 +593,13 @@ h1 a{text-decoration:none;}
 
 
 .button-light-line{
-		height:40px;
+		height:55px;
   border: 1px solid #AAE0C9;
 	  background-color: transparent;
   color: #AAE0C9;
-  padding-left: 25px;  padding-right: 25px;  padding-bottom: 7px;  padding-top: 7px;  
+  padding-left: 35px;  padding-right: 35px;  padding-bottom: 7px;  padding-top: 7px;  
   text-align: center;
-	border-radius: 0px;
+	border-radius: 100px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
@@ -521,13 +609,13 @@ h1 a{text-decoration:none;}
 .button-light-line:hover {background-color: #E58505;  border: 1px solid #E58505; color: #230702;}
 
 .button-orange-line{
-		height:40px;
+		height:55px;
   border: 1px solid #E58505;
 	  background-color: #E58505;
   color: #230702;
-  padding-left: 25px;  padding-right: 25px;  padding-bottom: 7px;  padding-top: 7px;  
+  padding-left: 35px;  padding-right: 35px;  padding-bottom: 7px;  padding-top: 7px;  
   text-align: center;
-	border-radius: 0px;
+	border-radius: 100px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
@@ -538,13 +626,13 @@ h1 a{text-decoration:none;}
 
 
 .button-dark-line{
-		height:40px;
+		height:55px;
   border: 1px solid #0F1108;
 	  background-color: transparent;
   color: #0F1108;
-  padding-left: 25px;  padding-right: 25px;  padding-bottom: 7px;  padding-top: 7px;  
+  padding-left: 35px;  padding-right: 35px;  padding-bottom: 7px;  padding-top: 7px;  
   text-align: center;
-	border-radius: 0px;
+	border-radius: 100px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
@@ -554,13 +642,13 @@ h1 a{text-decoration:none;}
 .button-dark-line:hover {background-color: #E58505;  border: 1px solid #E58505; color: #230702;}
 
 .button-dark-line2{
-		height:40px;
+		height:55px;
   border: 1px solid #0F1108;
 	  background-color: transparent;
   color: #0F1108;
-  padding-left: 25px;  padding-right: 25px;  padding-bottom: 7px;  padding-top: 7px;  
+  padding-left: 35px;  padding-right: 35px;  padding-bottom: 7px;  padding-top: 7px;  
   text-align: center;
-	border-radius: 0px;
+	border-radius: 100px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
@@ -570,13 +658,13 @@ h1 a{text-decoration:none;}
 .button-dark-line2:hover {background-color: #0F1108;  border: 1px solid #0F1108; color: #ffffff;}
 
 .button-white-line{
-		height:40px;
+		height:55px;
   border: 1px solid #ffffff;
 	  background-color: transparent;
   color: #ffffff;
-  padding-left: 25px;  padding-right: 25px;  padding-bottom: 7px;  padding-top: 7px;  
+  padding-left: 35px;  padding-right: 35px;  padding-bottom: 7px;  padding-top: 7px;  
   text-align: center;
-	border-radius: 0px;
+	border-radius: 100px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;

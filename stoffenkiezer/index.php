@@ -78,7 +78,6 @@
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>
@@ -88,7 +87,6 @@
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>					
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>					
@@ -98,7 +96,6 @@
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>					
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>
@@ -108,7 +105,6 @@
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag-active" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>	
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>					
@@ -118,7 +114,6 @@
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>					
 					<a href="index.php?category=velours"><div id="navigatie-M-tag-active" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>
@@ -128,7 +123,6 @@
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>					
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag-active" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>					
@@ -148,7 +142,6 @@
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>					
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag-active" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>				
@@ -173,28 +166,28 @@
 						<div id="items-D-item-intro-content">
 					<?
 							if ($Categorie_Selectie == ''){
-							?><h1 class="s24">Effen stoffen</h1>De Hopper en Lars zijn hier uitgelicht. Ze zijn beiden namelijk van fantastische kwaliteit. De Sardinia voelt zacht aan en is prachtig geweven, de Hopper is ook nog water- en vuilafstotend. <?
+							?><h1 class="s24">Effen stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.  <?
 							}
 							elseif ($Categorie_Selectie == 'effen'){
-							?><h1 class="s24">Effen stoffen</h1>De Hopper en Lars zijn hier uitgelicht. Ze zijn beiden namelijk van fantastische kwaliteit. De Sardinia voelt zacht aan en is prachtig geweven, de Hopper is ook nog water- en vuilafstotend.<?
+							?><h1 class="s24">Effen stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
 							}			
 							elseif ($Categorie_Selectie == 'rib'){
-							?><h1 class="s24">Rib stoffen</h1>De Lincoln is een heel zachte stof met brede rib. De Runagain is een smalle ribstof met prachtige, heldere kleuren. Kom langs om de stoffen te voelen en de kleuren in het echt te zien. <?
+							?><h1 class="s24">Rib stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
 							}	
 							elseif ($Categorie_Selectie == 'boucle'){
-							?><h1 class="s24">Boucl&#233; stoffen</h1>Geef je meubels een mooie zachte look met Boucl&#233;. Deze stoffen hebben een grove, maar speelse structuur en voelt zacht aan. Kom langs om de stoffen te voelen en de kleuren in het echt te zien. <?
+							?><h1 class="s24">Boucl&#233; stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
 							}								  
 							elseif ($Categorie_Selectie == 'velours'){
-							?><h1 class="s24">Velours stoffen</h1>De Ikoo is een fluwele stof met veel glans en prachtige heldere kleuren. De Monolith is een zachte velours met lichte glans. Beide stoffen zijn waterafstotend. Kom bij mij langs om de stoffen te voelen.  <?
+							?><h1 class="s24">Velours stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
 							}
 							elseif ($Categorie_Selectie == 'patroon'){
-							?><h1 class="s24">Patroonstoffen</h1>De Gobelinstoffen zijn geweldig om mee te werken. De prachtige patronen zijn niet geprint, maar geweven. Het is een dikke, robuuste stof met prachtige kleuren en patronen.<?
+							?><h1 class="s24">Patroonstoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
 							}									   
 							elseif ($Categorie_Selectie == 'skaileer'){
-							?><h1 class="s24">Skaileer</h1>Onderstaande skaileerstoffen zijn van geweldige kwaliteit imitatieleer die niet van echt leer te onderscheiden zijn. Van fijn tot grovere structuur. <?
+							?><h1 class="s24">Skaileer</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken. <?
 							}	
 							elseif ($Categorie_Selectie == 'buitenstof'){
-							?><h1 class="s24">Buitenstoffen</h1>De outdoorstoffen zijn teflon behandeld in de draad en zijn daardoor vuil- en waterafstotend. Ze zijn te gebruiken voor bv. kussens voor tuinmeubelen, caravans en boten.<?
+							?><h1 class="s24">Buitenstoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
 							}	
 					?>
 						</div>
@@ -206,34 +199,34 @@
 			<? $counter = "1";?>
 			<?
 					if ($Categorie_Selectie == ''){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Effen' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Effen' ORDER BY id ASC ");
 					}
 					elseif ($Categorie_Selectie == 'effen'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Effen' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Effen' ORDER BY id ASC ");
 					}			
 					elseif ($Categorie_Selectie == 'rib'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Rib' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Rib' ORDER BY id ASC ");
 					}	
 					elseif ($Categorie_Selectie == 'boucle'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Boucle' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Boucle' ORDER BY id ASC ");
 					}									  
 					elseif ($Categorie_Selectie == 'velours'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Velours' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Velours' ORDER BY id ASC ");
 					}
 					elseif ($Categorie_Selectie == 'patroon'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Patroon' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Patroon' ORDER BY id ASC ");
 					}									   
 					elseif ($Categorie_Selectie == 'skaileer'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Skaileer' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Skaileer' ORDER BY id ASC ");
 					}	
 					elseif ($Categorie_Selectie == 'buitenstof'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Buitenstof' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Buitenstof' ORDER BY id ASC ");
 					}									   
 								   
 						for ($i = 0; $i < $sql->rows; $i++) {
 							$sql->Fetch($i);
 							$id = $sql->data[id];
-							$name = $sql->data[name];
+							$name = ucwords($sql->data['name']);
 							$active = $sql->data[active];
 							$category = $sql->data[category];
 							$url = $sql->data[url];
@@ -266,7 +259,7 @@
 								<div id="stof-D-right-content-text">
 									<div id="stof-D-right-content-text-container">
 										<div id="stof-D-cat" style="clear:both;"><? echo $category;?></div>
-										<div id="stof-D-name"><? echo $name;?> <? echo $counter;?></div>
+										<div id="stof-D-name"><? echo $name;?> </div>
 									</div>
 								</div>
 								<div id="stof-D-right-content-share">
@@ -331,7 +324,6 @@
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>					
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>
@@ -340,7 +332,6 @@
 					<a href="index.php?category=rib"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Rib</div></a>
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>					
@@ -351,7 +342,6 @@
 
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>	
@@ -363,7 +353,6 @@
 
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>						
@@ -373,7 +362,6 @@
 					<a href="index.php?category=rib"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Rib</div></a>
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>						
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>
@@ -383,7 +371,6 @@
 					<a href="index.php?category=rib"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Rib</div></a>
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>						
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<a href="index.php?category=buitenstof"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Buitenstof</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>					
@@ -404,7 +391,6 @@
 					<a href="index.php?category=boucle"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Boucl&#233;</div></a>						
 					<a href="index.php?category=velours"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Velours</div></a>
 					<a href="index.php?category=patroon"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Patroon</div></a>
-					<a href="index.php?category=skaileer"><div id="navigatie-M-tag" class="navigatie-M-tag-space-between"><div id="space_8"></div>Skaileer</div></a>
 					<div id="navigatie-M-tag-laatstespace"></div>
 					<?}?>					
 					
@@ -422,30 +408,30 @@
 				<div id="info-M-content-space">&nbsp;</div>
 				<div id="info-M-content-content">
 			<?
-					if ($Categorie_Selectie == ''){
-					?><h1 class="s24">Effen stoffen</h1>De Hopper en Lars zijn hier uitgelicht. Ze zijn beiden namelijk van fantastische kwaliteit. De Sardinia voelt zacht aan en is prachtig geweven, de Hopper is ook nog water- en vuilafstotend. Kom langs om de stoffen te voelen en de kleuren in het echt te zien.<?
-					}
-					elseif ($Categorie_Selectie == 'effen'){
-					?><h1 class="s24">Effen stoffen</h1>De Hopper en Lars zijn hier uitgelicht. Ze zijn beiden namelijk van fantastische kwaliteit. De Sardinia voelt zacht aan en is prachtig geweven, de Hopper is ook nog water- en vuilafstotend. Kom langs om de stoffen te voelen en de kleuren in het echt te zien.<?
-					}			
-					elseif ($Categorie_Selectie == 'rib'){
-					?><h1 class="s24">Rib stoffen</h1>De Lincoln is een heel zachte stof met brede rib. De Runagain is een smalle ribstof met prachtige, heldere kleuren. Kom langs om de stoffen te voelen en de kleuren in het echt te zien. <?
-					}	
-					elseif ($Categorie_Selectie == 'boucle'){
-					?><h1 class="s24">Boucl&#233; stoffen</h1>Geef je meubels een mooie zachte look met Boucl&#233;. Deze stoffen hebben een grove, maar speelse structuur en voelt zacht aan. Kom langs om de stoffen te voelen en de kleuren in het echt te zien. <?
-					}								   
-					elseif ($Categorie_Selectie == 'velours'){
-					?><h1 class="s24">Velours stoffen</h1>De Ikoo is een fluwele stof met veel glans en prachtige heldere kleuren. De Monolith is een zachte velours met lichte glans. Beide stoffen zijn waterafstotend. Kom bij mij langs om de stoffen te voelen.  <?
-					}
-					elseif ($Categorie_Selectie == 'patroon'){
-					?><h1 class="s24">Geweven patroonstoffen</h1>De Gobelinstoffen zijn geweldig om mee te werken. De prachtige patronen zijn niet geprint, maar geweven. Het is een dikke, robuuste stof met prachtige kleuren en patronen.<?
-					}									   
-					elseif ($Categorie_Selectie == 'skaileer'){
-					?><h1 class="s24">Skaileer</h1>Onderstaande skaileerstoffen zijn van geweldige kwaliteit imitatieleer die niet van echt leer te onderscheiden zijn. Van fijn tot grovere structuur. <?
-					}	
-					elseif ($Categorie_Selectie == 'buitenstof'){
-					?><h1 class="s24">Buitenstoffen</h1>De outdoorstoffen zijn teflon behandeld in de draad en zijn daardoor vuil- en waterafstotend. Ze zijn te gebruiken voor bv. kussens voor tuinmeubelen, caravans en boten.<?
-					}	
+							if ($Categorie_Selectie == ''){
+							?><h1 class="s24">Effen stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.  <?
+							}
+							elseif ($Categorie_Selectie == 'effen'){
+							?><h1 class="s24">Effen stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
+							}			
+							elseif ($Categorie_Selectie == 'rib'){
+							?><h1 class="s24">Rib stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
+							}	
+							elseif ($Categorie_Selectie == 'boucle'){
+							?><h1 class="s24">Boucl&#233; stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
+							}								  
+							elseif ($Categorie_Selectie == 'velours'){
+							?><h1 class="s24">Velours stoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
+							}
+							elseif ($Categorie_Selectie == 'patroon'){
+							?><h1 class="s24">Patroonstoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
+							}									   
+							elseif ($Categorie_Selectie == 'skaileer'){
+							?><h1 class="s24">Skaileer</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken. <?
+							}	
+							elseif ($Categorie_Selectie == 'buitenstof'){
+							?><h1 class="s24">Buitenstoffen</h1>Je ziet hier een kleine selectie. Ik heb een groot assortiment aan prachtige stoffen in allerlei verschillende prijsklassen. Kom langs om alle stoffen te bekijken.<?
+							}	
 			?>
 					
 				</div>
@@ -465,34 +451,34 @@
 
 			<?
 					if ($Categorie_Selectie == ''){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Effen' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Effen' ORDER BY id ASC ");
 					}
 					elseif ($Categorie_Selectie == 'effen'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Effen' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Effen' ORDER BY id ASC ");
 					}			
 					elseif ($Categorie_Selectie == 'rib'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Rib' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Rib' ORDER BY id ASC ");
 					}
 					elseif ($Categorie_Selectie == 'boucle'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Boucle' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Boucle' ORDER BY id ASC ");
 					}								   
 					elseif ($Categorie_Selectie == 'velours'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Velours' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Velours' ORDER BY id ASC ");
 					}
 					elseif ($Categorie_Selectie == 'patroon'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Patroon' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Patroon' ORDER BY id ASC ");
 					}									   
 					elseif ($Categorie_Selectie == 'skaileer'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Skaileer' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Skaileer' ORDER BY id ASC ");
 					}	
 					elseif ($Categorie_Selectie == 'buitenstof'){
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  active = 'ja' AND category = 'Buitenstof' ORDER BY id ASC ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  active = 'ja' AND category = 'Buitenstof' ORDER BY id ASC ");
 					}									   
 								   
 						for ($i = 0; $i < $sql->rows; $i++) {
 							$sql->Fetch($i);
 							$id = $sql->data[id];
-							$name = $sql->data[name];
+							$name = ucwords($sql->data['name']);
 							$active = $sql->data[active];
 							$category = $sql->data[category];
 							$url = $sql->data[url];

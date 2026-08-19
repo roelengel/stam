@@ -9,6 +9,11 @@
 	$regio = 'Heemskerk';
 	$regio_db = 'Heemskerk';
 
+	$h1 = 'Stoffeerder in Heemskerk – Specialist in Zitcomfort';
+	$meta_title = 'Stoffeerder Heemskerk – Stoelen, Fauteuils & Tuinkussens';
+	$meta_description = 'Stam Stoffeeratelier helpt klanten in Heemskerk met het stofferen van stoelen, fauteuils en tuinkussens. Vakwerk, duurzame stoffen en perfecte afwerking.';
+
+
 ?>
 
 

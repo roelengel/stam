@@ -84,9 +84,9 @@
 				<div id="gallery-D-text">
 					<div id="space_20"></div>
 					<div id="space_10"></div>
-					<span style="font-family: cinema-script; font-size:50px; font-weight:300;;">Refurnish</span><h1 class="s36 " style="margin-top:5px;">Shop uit mijn eigen lijn</h1>
-						Met mijn eigen Refurnish lijn koop ik oude stoelen en knap ik ze weer op. Alles wat nodig is voor goed zitcomfort en een gave look. Deze stoelen kun je online kopen door contact met mij op te nemen.<br><br>
-						<span style="font-size:14px; color:#E58505;"><i>Zie je iets moois? Neem dan even contact op. De voorraad is niet altijd actueel.</i></span>				
+					<h1 class="s36 " style="margin-top:5px;">Stoelen uit mijn eigen lijn</h1>
+						Met mijn eigen Refurnish lijn koop ik oude stoelen en knap ik ze weer op. Zie je iets moois? Neem dan even contact op. De voorraad is niet altijd actueel..
+									
 				</div>
 				<div id="gallery-D-space">&nbsp;</div>
 
@@ -191,11 +191,11 @@
 
 		<div id="blok-top-M" class="dark-text">
 			<div id="blok-top-M-subtitle">
-				<span style="font-family: cinema-script; font-size:50px; font-weight:300;color: #000000;">Refurnish</span><h1 class="s24 " style="margin-top:5px;">Shop uit mijn eigen lijn</h1>
+				 <h1 class="s24 " style="margin-top:5px;">Stoelen uit mijn eigen lijn</h1>
 			</div>
 			<div id="blok-top-M-subtitle">
-				Met mijn eigen Refurnish lijn koop ik oude stoelen en knap ik ze weer op. Alles wat nodig is voor goed zitcomfort en een gave look. Deze stoelen kun je online kopen door contact met mij op te nemen.<br><br>
-				<span style="font-size:14px; color:#E58505;"><i>Zie je iets moois? Neem dan even contact op. De voorraad is niet altijd actueel.</i></span>
+				Met mijn eigen Refurnish lijn koop ik oude stoelen en knap ik ze weer op.  Zie je iets moois? Neem dan even contact op. De voorraad is niet altijd actueel.
+				
 			</div>
 			
 		</div>
@@ -217,13 +217,13 @@
 ?>
 							<div id="list-item-M">
 								<a href="stoel.php?id=<? echo $id;?>" class="link-white">
-									<div id="list-item-M-left" style="background-image: url('../_images/eigen-lijn-M-car<? echo $id;?>.jpg'); background-size:140px;">
+									<div id="list-item-M-left" style="background-image: url('../_images/eigen-lijn-M-car<? echo $id;?>.jpg'); background-size:140px;" class="border-S">
 										
 
 										<div id="favorite-container-M">
 											<table style="font-size:14px; color: #3B3B3B;">
 												<tr>
-													<td><img src="../_images/heart.svg" style="height:17px;"></td>
+													<td><img src="../_images/heart.svg" style="height:17px;" ></td>
 													<td><? echo rand(10,30);?></td>
 												</tr>
 											</table>

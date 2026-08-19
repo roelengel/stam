@@ -1,17 +1,18 @@
+
 <html>
 	<head>
 		<? include('../../_includes/google-analytics.php');?>
 
 
 		<meta charset="utf-8">
-		<title>Meubels stofferen in <? echo $regio;?></title>
+		<title><? echo $meta_title;?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<link type="text/css" rel="stylesheet" href="../../style2.css"/>
 		
-		<meta name="title" content="Meubels stofferen in <? echo $regio;?>">
-		<meta name="description" content="Op zoek naar een meubelstoffeerder in <? echo $regio;?>? Stam Stoffeeratelier stoffeert stoelen, feauteuils, tuinkussens en meer. ">
+		<meta name="title" content="<? echo $meta_title;?>">
+		<meta name="description" content="<? echo $meta_description;?>">
 		
-		<meta property="og:title" content="Meubels stofferen in <? echo $regio;?>">
+		<meta property="og:title" content="<? echo $meta_title;?>">
 		<meta property="og:image" content="https://www.stamstoffeeratelier.nl/_images/social.jpg">	
 		
 	
@@ -23,6 +24,51 @@
 		
 		<link rel="shortcut icon" href="../_images/ssa-favicon.ico" type="image/x-icon">
 		<link rel="icon" href="../../_images/ssa-favicon.ico" type="image/x-icon">
+		
+		<!--DIT IS OM GOOGLE HOGER TE LATEN RANKEN EN TE LATEN ZIEN DAT JE LOCAL BENT   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+		<?php
+		$areas = [
+			ucfirst($regio),
+			"IJmond",
+			"Heemskerk",
+			"Beverwijk",
+			"Haarlem",
+			"Castricum",
+			"Uitgeest",
+			"IJmuiden"
+		];
+
+		$areas = array_unique($areas);
+		?>
+		<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Stam Stoffeeratelier",
+		  "image": "https://www.stamstoffeeratelier.nl/_images/home-beeld2.jpg",
+		  "url": "https://www.stamstoffeeratelier.nl/in-opdracht/<?=ucfirst($regio);?>/",
+		  "telephone": "+31643094294",
+		  "priceRange": "$$",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "Anna Reynvaanstraat 32",
+			"addressLocality": "Heemskerk",
+			"postalCode": "1963 BV",
+			"addressRegion": "Noord-Holland",
+			"addressCountry": "NL"
+		  },
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 52.5117,
+			"longitude": 4.6714
+		  },
+		  "areaServed": <?=json_encode(array_values($areas));?>,
+		  "description": "Stam Stoffeeratelier is de specialist in <?=ucfirst($regio);?> voor het stofferen en restaureren van stoelen, fauteuils, banken en tuinkussens. Vakwerk, duurzame materialen en perfecte afwerking."
+		}
+		</script>
+		
+		
+		
 		
 
 	</head>
@@ -74,7 +120,7 @@
 				</div>
 				<div id="header-D-content-2">
 					<div id="header-D-content-2-text">
-						<h1 class="s36" style="margin-top:5px;">Meubels stofferen in <? echo $regio;?></h1>
+						<h1 class="s36" style="margin-top:5px;"><? echo $h1;?></h1>
 						Heb jij thuis iets staan wat je wilt laten stofferen? Een meubelstuk met sentimentele waarde of een tuinbank die om maatwerk vraagt? Neem contact op voor een gratis offerte.
 
 						<div id="space_20"></div>
@@ -95,7 +141,7 @@
 
 <!--KOSTEN desktop   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
 		<div id="2-columns" style="width:100%;">
-			<div id="2-colomns-content" style="width:90%;margin:auto;  max-width: 1400px; text-align: left; font-size:18px;">
+			<div id="2-colomns-content" style="width:90%;margin:auto;  max-width: 1400px; text-align: left; line-height: 1.6; ">
 				<div id="2-columns-content-1" style="width:40%; float:left;">
 					<div id="space_20"></div>
 					<h2 class="s24">Stoffeeratelier in regio <? echo $regio;?></h2>
@@ -106,6 +152,7 @@
 							$id = $sql->data[id];
 							$regio_name = $sql->data[regio];
 							$text1 = $sql->data[text1];
+							$text2 = $sql->data[text2];
 
 							
 ?>
@@ -127,7 +174,8 @@
 							<span class="font-weight-600">Nina Stam</span><br>
 							Eigenaar Stam Stoffeeratelier
 						</div>
-					
+						<div id="space_50"></div>
+						<? echo $text2;?>
 					
 					</div>				
 				</div>
@@ -178,8 +226,8 @@
 						<div id="kosten-table-M-left"><img src="../../_images/icons-stam_camper.svg" style="width:100%;"></div>
 						<div id="kosten-table-M-right">
 							<div id="kosten-table-M-right-1"><h2 class="h-plain">Caravan inrichting <? echo $regio;?></h2></div>
-							<div id="kosten-table-M-right-2">100,- &nbsp; tot &nbsp; 600,-</div>
-							<div id="kosten-table-M-right-3"><img src="../../_images/prijs-100-600.png" style="width:100%;"></div>
+							<div id="kosten-table-M-right-2">200,- &nbsp; tot &nbsp; 1.000,-</div>
+							<div id="kosten-table-M-right-3"><img src="../../_images/prijs-200-1000.png" style="width:100%;"></div>
 							<div id="kosten-table-M-right-4">Ik stoffeer ook volledige (sta)caravans. Bij het volledig opnieuw stofferen van alle banken en matrassen ga je naar de bovenkant van deze prijsinschatting.</div>
 						</div>
 						<div id="space_20"></div>
@@ -372,6 +420,17 @@
 			<div id="space_100"></div>
 		</div>
 		
+		<div id="FAQ-D">
+			<?php
+				require_once '../../FAQ/index.php';        // laadt $all_faqs + get_faqs_by_category()
+				require_once '../../FAQ/faq-accordion.php'; // laadt de functie render_faq_accordion()
+
+				$faqs = get_faqs_by_category($all_faqs, ['fauteuils', 'algemeen']);
+				render_faq_accordion($faqs);
+			?>
+		
+		</div>
+		
 		
 		
 		
@@ -424,15 +483,15 @@
 			<div id="pagina-inopdracht-M-content">
 				<div id="space_1"></div>
 
-				<h1 class="white-text s24">Meubels stofferen in <? echo $regio;?></h1>
+				<h1 class="white-text s24"><? echo $h1;?></h1>
 				Heb jij thuis iets staan wat je wilt laten stofferen? Een meubelstuk met sentimentele waarde of een tuinbank die om maatwerk vraagt? 
 				<div id="space_20"></div>
 			</div>
 
 			<div id="blok-top-M-buttons">
-				<button class="button-orange-full w150 mt7" onclick="location.href='../../contact'">Stel een vraag</button>
-				&nbsp;&nbsp;
-				<button class="button-white-line w150 mt7" onclick="location.href='../../contact'">Offerte</button>
+				<button class="button-orange-full w100pr mt7" onclick="location.href='../../contact'">Stel een vraag</button>
+				<br>
+				<button class="button-white-line w100pr mt7" onclick="location.href='../../contact'">Offerte</button>
 			</div>
 			<div id="space_50"></div> 	
 			
@@ -452,6 +511,7 @@
 							$id = $sql->data[id];
 							$regio_name = $sql->data[regio];
 							$text1 = $sql->data[text1];
+							$text2 = $sql->data[text2];
 
 							
 ?>
@@ -521,8 +581,8 @@
 					<div id="kosten-table-M-left"><img src="../../_images/icons-stam_camper.svg" style="width:100%;"></div>
 					<div id="kosten-table-M-right">
 						<div id="kosten-table-M-right-1"><h2 class="h-plain-M">Caravan inrichting <? echo $regio;?></h2></div>
-						<div id="kosten-table-M-right-2">100,- &nbsp; tot &nbsp; 600,-</div>
-						<div id="kosten-table-M-right-3"><img src="../../_images/prijs-100-600.png" style="width:100%;"></div>
+						<div id="kosten-table-M-right-2">200,- &nbsp; tot &nbsp; 1.000,-</div>
+						<div id="kosten-table-M-right-3"><img src="../../_images/prijs-200-1000.png" style="width:100%;"></div>
 						<div id="kosten-table-M-right-4">Ik stoffeer ook volledige (sta)caravans. Bij het volledig opnieuw stofferen van alle banken en matrassen ga je naar de bovenkant van deze prijsinschatting.</div>
 					</div>
 					<div id="space_20"></div>
@@ -530,7 +590,10 @@
 				<div id="space_20"></div>
 				Voor een goede prijsinschatting kun je mij altijd foto's mailen of WhatsAppen. 
 				<div id="space_10"></div>
-				<button class="button-dark-line" onclick="location.href='../../contact'">Stuur mij een foto</button>	
+				<button class="button-dark-line" onclick="location.href='../../contact'">Stuur mij een foto</button>
+				
+				<div id="space_50"></div>
+				<? echo $text2;?>
 			</div>
 
 		</div>	
@@ -554,41 +617,40 @@
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../../stoffenkiezer/index.php?category=effen" class="link-white">
 					<img src="../../_images/stof1.jpg" class="car-image" >
-					<div id="caroussel-M-subtitle">Effen</div>
-					<div id="caroussel-M-title">Hopper Teal</div>
+					<div id="caroussel-M-title">Teal</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../../stoffenkiezer/index.php?category=patroon">
 					<img src="../../_images/stof2.jpg"  class="car-image">
-					<div id="caroussel-M-subtitle">Patroon</div>
 					<div id="caroussel-M-title">Gobelin Barbados Negro</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../../stoffenkiezer/index.php?category=buitenstof">
 					<img src="../../_images/stof3.jpg"  class="car-image">
-					<div id="caroussel-M-subtitle">Buitenstof</div>
-					<div id="caroussel-M-title">Screen 21-N Oranje/Terra</div>
+					<div id="caroussel-M-title">Buitenstof Terra</div>
 					</a>
 				</div>	
 				<div id="caroussel-M-item" class="slide-in-M">
-					<a href="../../../stoffenkiezer/index.php?category=rib">
+					<a href="../../stoffenkiezer/index.php?category=rib">
 					<img src="../../_images/stof4.jpg" class="car-image" >
-					<div id="caroussel-M-subtitle">Rib</div>
-					<div id="caroussel-M-title">Runagain Geel</div>
+					<div id="caroussel-M-title">Grove Rib Geel</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../../stoffenkiezer/">
 					<img src="../../_images/meerstoffen.jpg" class="car-image" >
-					<div id="caroussel-M-subtitle">Bekijk meer</div>
 					<div id="caroussel-M-title">Kies uit meer dan 1000 stoffen</div>
 					</a>
 				</div>					
-				<div id="caroussel-M-emptyitem">&nbsp;</div>
+				<div id="caroussel-L-M-emptyitem">&nbsp;</div>
+
 				<div id="space_20"></div>
 			</div>
+
+			
+			
 			<div id="space_20"></div>
 			<div id="blok-top-M-buttons">
 				<button class="button-white-line " onclick="location.href='../../stoffenkiezer/index.php'">Stoffenkiezer</button>

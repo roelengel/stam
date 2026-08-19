@@ -107,8 +107,8 @@
 					<button class="button-dark-line" onclick="location.href='https://maps.app.goo.gl/4jSt64dhmgtNyueb9'">Open Google Maps</button>
 				</div>
 			
-				<div id="space_50"></div>
-				<div id="space_20"></div>
+			<!--
+
 			
 				<div id="eigen-lijn-M2-content">
 					<span style="font-weight:900; font-size:24px;">Verkooppunt</span>
@@ -123,6 +123,10 @@
 					<div id="space_100"></div>
 						 
 				</div>
+			-->
+			
+							<div id="space_50"></div>
+				<div id="space_20"></div>
 		</div>
 		
 		
@@ -224,6 +228,7 @@
 				<div id="space_50"></div>
 				<div id="space_20"></div>
 			
+				<!--
 				<div id="eigen-lijn-M2-content">
 					<span style="font-weight:900; font-size:24px;">Verkooppunt</span>
 					<div id="space_20"></div>
@@ -237,6 +242,7 @@
 					<div id="space_100"></div>
 						 
 				</div>
+				-->
 				
 		</div>
 		

@@ -10,7 +10,7 @@
 
 	include ('../_includes/mobile_check.php');
 
-					$sql->Query("SELECT * FROM stoffen_3 WHERE  id = $id ");
+					$sql->Query("SELECT * FROM stoffen_4_to_be_sure WHERE  id = $id ");
 						for ($i = 0; $i < $sql->rows; $i++) {
 							$sql->Fetch($i);
 							$id = $sql->data[id];

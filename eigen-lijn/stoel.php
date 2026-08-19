@@ -343,11 +343,10 @@
 					
 				<div id="eigen-lijn-M2-content">
 					<div id="space_50"></div>
-					<span style="font-weight:900; font-size:24px;">Meer van mijn eigen lijn</span>
+					<h2>Meer van mijn eigen lijn</h2>
 				</div>
 				
 				<div id="caroussel-M">
-					<div id="space_20"></div>
 					<div id="caroussel-M-emptyitem">&nbsp;</div>
 					
 <?

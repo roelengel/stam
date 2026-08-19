@@ -9,6 +9,9 @@
 	$regio = 'Beverwijk';
 	$regio_db = 'Beverwijk';
 
+	$h1 = 'Herstofferen in Beverwijk – Woning & Horeca';
+	$meta_title = 'Stoffeerder Beverwijk – Stoelen, Fauteuils & Horeca';
+	$meta_description = 'Voor Beverwijk stoffeert Stam Stoffeeratelier stoelen, fauteuils en horecameubilair. Sterke materialen en nette afwerking voor intensief gebruik.';
 ?>
 
 

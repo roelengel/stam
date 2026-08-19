@@ -9,7 +9,11 @@
 	$regio = 'Zaanstreek';
 	$regio_db = 'Zaanstreek';
 
+	$h1 = 'Herstofferen in de Zaanstreek – Zitmeubilair & Comfort';
+	$meta_title = 'Stoffeerder Zaanstreek – Stoelen, Fauteuils & Maatwerk';
+	$meta_description = 'Stam Stoffeeratelier stoffeert stoelen, fauteuils en tuinkussens voor klanten in de Zaanstreek. Sterke stoffen en nette afwerking voor elk interieur.';
 ?>
+
 
 
 	

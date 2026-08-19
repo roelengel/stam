@@ -61,13 +61,11 @@
 		
 		<div id="small-content">
 			<div id="meer-eigen-lijn-M-content">
-				<span style="font-size:24px; font-weight:900;">Ik ben Nina Stam</span>
-				<div id="space_20"></div>
-				<div id="space_10"></div>
-				Ik ben dol op stofferen. Al 15 jaar maak ik kleding en de afgelopen 2 jaar ben ik  bijgeschoold op het gebied van meubels stofferen. Met een eigen atelier in Heemskerk en een verkooppunt in Zwaanshoek ben ik op volle stoom.<br><br>
+				<h1>Ik ben Nina Stam</h1>
+				Ik ben dol op stofferen. Al 15 jaar maak ik kleding en de afgelopen 5 jaar ben ik  bijgeschoold op het gebied van meubels stofferen. Met een eigen atelier in Heemskerk ben ik op volle stoom.<br><br>
 				Meubels die een tweede leven verdienen, pak ik aan. Dit doe ik in opdracht en ik heb mijn eigen lijn met meubels die ik koop en opknap. Ik sta altijd open voor vragen. Dus wil je iets weten? Stuur mij vooral een bericht.
 				<div id="space_20"></div>
-				<img src="../_images/overmij-m.jpg" style="width:100%;">
+				<img src="../_images/overmij-m.jpg" style="width:100%;" class="border-S">
 				<div id="space_50"></div>
 			
 				<div id="contact-M-acc-1">
@@ -95,11 +93,11 @@
 						</a>
 					</div>				
 				<div id="space_50"></div>
-				<img src="../_images/home-top-m.jpg" style="width:100%;"> 
+				<img src="../_images/home-top-m.jpg" style="width:100%;" class="border-S"> 
 				<div id="space_50"></div>
-				<img src="../_images/overmij-m5.jpg" style="width:100%;"> 
+				<img src="../_images/overmij-m5.jpg" style="width:100%; class="border-S"> 
 				<div id="space_50"></div>
-				<img src="../_images/overmij-m4.jpg" style="width:100%;"> 
+				<img src="../_images/overmij-m4.jpg" style="width:100%; class="border-S"> 
 				<div id="space_50"></div>				
 			</div>		
 		</div>	
@@ -150,10 +148,8 @@
 		<div id="meer-eigen-lijn-M">
 			<div id="meer-eigen-lijn-M-content">
 				<div id="space_20"></div>
-				<span style="font-size:24px; font-weight:900;">Ik ben Nina Stam</span>
-				<div id="space_20"></div>
-				<div id="space_10"></div>
-				Ik ben dol op stofferen. Al 15 jaar maak ik kleding en de afgelopen 2 jaar ben ik  bijgeschoold op het gebied van meubels stofferen. Met een eigen atelier in Heemskerk en een verkooppunt in Zwaanshoek ben ik op volle stoom.<br><br>
+				<h1>Ik ben Nina Stam</h1>
+				Ik ben dol op stofferen. Al 15 jaar maak ik kleding en de afgelopen 5 jaar ben ik  bijgeschoold op het gebied van meubels stofferen. Met een eigen atelier in Heemskerk ben ik op volle stoom.<br><br>
 				Meubels die een tweede leven verdienen, pak ik aan. Dit doe ik in opdracht en ik heb mijn eigen lijn met meubels die ik koop en opknap. Ik sta altijd open voor vragen. Dus wil je iets weten? Stuur mij vooral een bericht.
 				<div id="space_50"></div>
 				
@@ -181,14 +177,14 @@
 							<div id="space_20"></div>
 						</a>
 					</div>				
-				
+					<div id="space_50"></div>
+					<img src="../_images/home-top-m.jpg" style="width:100%;" class="border-S">
+					<div id="space_20"></div>	
+					<img src="../_images/overmij-m5.jpg" style="width:100%;" class="border-S">
+					<div id="space_20"></div>	
+					<img src="../_images/overmij-m4.jpg" style="width:100%;" class="border-S">
+
 			</div>
-				<div id="space_50"></div>
-		<img src="../_images/home-top-m.jpg" style="width:100%;">
-		<div id="space_10"></div>	
-		<img src="../_images/overmij-m5.jpg" style="width:100%;">
-		<div id="space_10"></div>	
-		<img src="../_images/overmij-m4.jpg" style="width:100%;">
 			<div id="space_100"></div>
 		</div>
 					

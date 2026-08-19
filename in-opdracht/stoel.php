@@ -88,8 +88,7 @@
 			<div id="stoel-content-M-blok" style="background-color:#431307" class="animate-bottom-top-m">
 				<div id="stoel-content-M-blok-title">
 					Klus in opdracht
-					<div id="space_5"></div>
-					<span style="font-weight:900; "><? echo $title;?></span></div>
+					<h1 class="s18"><? echo $title;?></h1></div>
 			</div>
 			
 			<div id="stoel-D-car">
@@ -105,8 +104,8 @@
 						<div id="space_20"></div>
 						<div id="space_10"></div>
 						<div id="meer-eigen-lijn-D-content">
-							<span style="font-weight:900; font-size:24px;">Wil jij iets laten stofferen?</span>
-							<div id="space_10"></div>
+							<h1>Wil jij iets laten stofferen?</h1>
+
 							Een meubelstuk met sentimentele waarde of een tuinbank die om maatwerk vraagt? Stuur mij gerust een bericht met jouw vraag.
 							<div id="space_20"></div>
 							<div id="contact-M-acc-1">
@@ -212,8 +211,8 @@
 			<div id="stoel-content-M-blok" style="background-color:#431307" class="animate-bottom-top-m">
 				<div id="stoel-content-M-blok-title">
 					Klus in opdracht
-					<div id="space_5"></div>
-					<span style="font-weight:900; "><? echo $title;?></span></div>
+					<h1 class="s18"><? echo $title;?></h1>
+				</div>
 				
 
 			</div>
@@ -247,7 +246,7 @@
 			<div id="space_20"></div>
 			<div id="space_10"></div>
 			<div id="meer-eigen-lijn-M-content">
-				<span style="font-weight:900; font-size:24px;">Wil jij iets laten stofferen?</span>
+				<h1>Wil jij iets laten stofferen?</h1>
 				<div id="space_10"></div>
 				Een meubelstuk met sentimentele waarde of een tuinbank die om maatwerk vraagt? Stuur mij gerust een bericht met jouw vraag.
 				<div id="space_20"></div>

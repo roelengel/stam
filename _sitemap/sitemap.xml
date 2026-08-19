@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Hoofdpagina's -->
+  <url><loc>https://www.stamstoffeeratelier.nl/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stoffenkiezer/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/over-mij/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/garantie/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/contact/</loc></url>
+
+  <!-- Dienstenpagina's (stofferen per meubeltype) -->
+  <url><loc>https://www.stamstoffeeratelier.nl/stofferen/stoelen-eetkamerstoelen-stofferen/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stofferen/stofferen-in-de-horeca/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stofferen/fauteuil-stofferen/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stofferen/caravans-stacaravans-campers-stofferen/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stofferen/sportkantines-fitnessapparaten-stofferen/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stofferen/tuinkussens-laten-maken/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stofferen/bootkussens-laten-maken/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stofferen/eetkamerbank-op-maat-stofferen/</loc></url>
+
+  <!-- Regiopagina's -->
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/Heemskerk/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/Beverwijk/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/Castricum/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/Uitgeest-Akersloot/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/Haarlem/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/Zaanstreek/</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/Heiloo/</loc></url>
+
+  <!-- Portfolio: in opdracht gestoffeerde projecten -->
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=1</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=2</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=3</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=4</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=5</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=6</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=7</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=9</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=10</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=11</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=12</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/in-opdracht/stoel.php?id=13</loc></url>
+
+  <!-- Eigen lijn (Refurnish shop) -->
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=101</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=102</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=103</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=104</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=105</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=106</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=107</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=108</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=109</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=110</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=111</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/eigen-lijn/stoel.php?id=112</loc></url>
+
+  <!-- Stoffenkiezer: categorieoverzichten -->
+  <url><loc>https://www.stamstoffeeratelier.nl/stoffenkiezer/index.php?category=effen</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stoffenkiezer/index.php?category=patroon</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stoffenkiezer/index.php?category=buitenstof</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stoffenkiezer/index.php?category=rib</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stoffenkiezer/index.php?category=velours</loc></url>
+  <url><loc>https://www.stamstoffeeratelier.nl/stoffenkiezer/index.php?category=boucle</loc></url>
+
+</urlset>

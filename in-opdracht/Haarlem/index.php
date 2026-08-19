@@ -9,6 +9,11 @@
 	$regio = 'Haarlem';
 	$regio_db = 'Haarlem';
 
+	$h1 = 'Herstofferen in Haarlem – Design & Vakmanschap';
+	$meta_title = 'Stoffeerder Haarlem – Stoelen, Fauteuils & Design';
+	$meta_description = 'Voor Haarlem stoffeert Stam Stoffeeratelier stoelen, fauteuils en maatwerk kussens. Perfecte afwerking en duurzame materialen voor moderne en klassieke interieurs.';
+
+
 ?>
 
 
