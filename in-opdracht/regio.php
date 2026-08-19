@@ -419,16 +419,19 @@
 			</div>
 			<div id="space_100"></div>
 		</div>
+	
+		
+		
 		
 		<div id="FAQ-D">
 			<?php
-				require_once '../../FAQ/index.php';        // laadt $all_faqs + get_faqs_by_category()
-				require_once '../../FAQ/faq-accordion.php'; // laadt de functie render_faq_accordion()
+				require_once __DIR__ . '/../FAQ/index.php';        // laadt $all_faqs + get_faqs_by_category()
+				require_once __DIR__ . '/../FAQ/faq-accordion.php'; // laadt de functie render_faq_accordion()
 
 				$faqs = get_faqs_by_category($all_faqs, ['fauteuils', 'algemeen']);
 				render_faq_accordion($faqs);
 			?>
-		
+
 		</div>
 		
 		

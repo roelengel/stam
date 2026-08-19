@@ -139,7 +139,11 @@ $all_faqs = [
  * Haal alle FAQ's op die bij minstens één van de opgegeven categorieën horen.
  * Voorbeeld: get_faqs_by_category($all_faqs, ['fauteuils', 'algemeen']);
  */
-function get_faqs_by_category(array $all_faqs, array $slugs): array {
+/**
+ * Haal alle FAQ's op die bij minstens één van de opgegeven categorieën horen.
+ * Voorbeeld: get_faqs_by_category($all_faqs, ['fauteuils', 'algemeen']);
+ */
+function get_faqs_by_category(array $all_faqs, array $slugs) {
     return array_values(array_filter($all_faqs, function ($faq) use ($slugs) {
         return count(array_intersect($faq['categories'], $slugs)) > 0;
     }));
