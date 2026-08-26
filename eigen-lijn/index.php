@@ -107,7 +107,7 @@
 ?>
 							<div id="gallery-D-item">
 								<a href="stoel.php?id=<? echo $id;?>" class="link-white">
-										<img src="../_images/eigen-lijn-M-car<? echo $id;?>.jpg" class="car-image" style="width:100%;">
+										<img src="../_images/eigen-lijn-M-car<? echo $id;?>.jpg" class="car-image" style="width:100%;" alt="<? echo $title;?>">
 									
 										<div id="space_20"></div>
 										

@@ -15,6 +15,8 @@
     $prijs_tot = "650";
     $prijs_context = "Richtprijs per eetkamerbank, inclusief stof en vulling. De uiteindelijke investering hangt af van het formaat, de vorm en de gekozen materialen.";
 
+	$faq_category = "eetkamerbank-op-maat";
+
     $body = <<<'EOD'
         <h2>Waar hangt de prijs van af?</h2>
         <p>Bij eetkamerbanken speelt de vorm een grote rol. Een rechte bank is eenvoudiger te stofferen dan een bank met rondingen, hoeken of een hoge rugleuning. Ook de lengte van de bank en het aantal zitdelen bepalen de investering.</p>
@@ -23,12 +25,12 @@
 
         <h2>Stoffen voor intensief gebruik</h2>
         <p>Eetkamerbanken worden veel gebruikt en moeten tegen een stootje kunnen. Daarom kies ik vaak voor sterke projectstoffen of kunstleer dat makkelijk schoon te houden is. In de <a href="../../stoffenkiezer/">Stoffenkiezer</a> vind je stoffen die slijtvast, kleurvast en onderhoudsvriendelijk zijn.</p>
-        <img src="../../_images/categorie-eetkamerbank-beeld02.jpg" class="border-S" style="width:100%;">
+        <img src="../../_images/categorie-eetkamerbank-beeld02.jpg" class="border-S" style="width:100%;" alt="kamerbank op maat gemaakt met losse rugkussens" >
 
         <h2>Maatwerk voor elke eethoek</h2>
         <p>Omdat elke eetkamerbank anders is qua afmetingen en indeling, maak ik het liefst een offerte op basis van foto’s en maten. Zo krijg je een bank die precies past bij jouw interieur en gebruik.</p>
 
-        <img src="../../_images/categorie-eetkamerbank-beeld03.jpg" class="border-S" style="width:100%;">
+        <img src="../../_images/categorie-eetkamerbank-beeld03.jpg" class="border-S" style="width:100%;" alt="ingebouwde hoekbank - maatwerk eetkamerbank met gebolde rugstroken">
 EOD;
 ?>
 

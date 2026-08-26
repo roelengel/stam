@@ -15,6 +15,8 @@
     $prijs_tot = "900";
     $prijs_context = "Richtprijs per boot, inclusief buitenstof en vulling. De uiteindelijke investering hangt af van het formaat, de vorm en het aantal kussens.";
 
+	$faq_category = "bootkussens";
+
     $body = <<<'EOD'
         <h2>Waar hangt de prijs van af?</h2>
         <p>Bij bootkussens speelt de vorm een grote rol. Veel boten hebben zitkussens met schuine hoeken, rondingen of speciale uitsparingen. Deze vormen vragen meer tijd en precisie dan rechte kussens. Ook het aantal kussens en de totale lengte van de zitruimte bepalen de investering.</p>

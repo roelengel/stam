@@ -200,7 +200,7 @@ h1 a{text-decoration:none;}
 #over-mij-D-text{width:650px; font-weight: 600; font-size:18px;float: left;color:#230702;  position: relative;}
 
 /* Carrousel HOME */
-#carr-D-dark{width:100%; background-color:#431307;color:#ffffff;margin-top:-2px; white-space: nowrap;overflow-y: hidden;overflow-x: scroll; text-align:left;}
+#carr-D-dark{width:100%; background-color:#431307;color:#ffffff;margin-top:-2px; white-space: nowrap;overflow-y: hidden;overflow-x: scroll; text-align:left; }
 	#carr-D-blue{width:100%; background-color:#3C4168;color:#ffffff;margin-top:-2px; white-space: nowrap;overflow-y: hidden;overflow-x: scroll; text-align:left;}
 	#carr-D-eigenlijn{width:100%; background-color:#ffffff;color:#0F1108;margin-top:-2px; white-space: nowrap;overflow-y: hidden;overflow-x: scroll; text-align:left;}
 
@@ -271,11 +271,28 @@ h1 a{text-decoration:none;}
 
 /* klein content blok voor over mij, contact pagina's    */
 #small-content{width:700px; margin:auto; background-color:#ffffff; text-align: left;}
-
 #small-content-smaller{width:500px; background-color:#ffffff; text-align: left;}
 
 /* IN OPDRACHT 2 KOLOMMEN */
 #2-colomns-content{width:90%;margin:auto;  max-width: 1400px; text-align: left; line-height: 1.6;}
+
+/* FAQ Desktop */
+#FAQ-D{width: 100%; background-color: #AAE0C9;}
+#FAQ-M{width: 100%; background-color: #AAE0C9;}
+#FAQ-M-content{width: 90%; margin-left: 5%;}
+
+/* Neem contact op op in-opdracht paginas */
+#neem-contact-op-D{width:100%; background-color:#16302B; color: #ffffff;}
+#neem-contact-op-D-content{width: 90%;max-width: 800px;  margin:auto; }
+#contact-D-acc-1{clear:both;width: 100%; border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff;}
+	#contact-D-acc-1 a{text-decoration: underline; color: #ffffff;}#contact-M-acc-1 a:hover{text-decoration: underline; color: #ffffff;}
+#contact-D-acc-2{width: 100%;  border-bottom: 1px solid #ffffff;}
+	#contact-D-acc-2 a{text-decoration: underline; color: #ffffff;}#contact-M-acc-2 a:hover{text-decoration: underline; color: #ffffff;}
+#contact-D-acc-3{width: 100%;  border-bottom: 1px solid #ffffff;}
+	#contact-D-acc-3 a{text-decoration: underline; color: #ffffff;}#contact-M-acc-3 a:hover{text-decoration: underline; color: #ffffff;}
+#contact-D-acc-left{width:90%; float:left; text-align:left;}
+#contact-D-acc-right{width:10%; float:left; text-align:right;}
+
 
 
 /* MOBILE */

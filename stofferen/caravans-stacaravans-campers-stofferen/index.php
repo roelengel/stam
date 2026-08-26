@@ -15,6 +15,9 @@
     $prijs_tot = "1.000";
     $prijs_context = "Richtprijs per caravan of camper, inclusief stof en vulling. De uiteindelijke investering hangt af van het formaat, de vorm en het aantal kussens.";
 
+	$faq_category = "caravans-campers";
+
+
     $body = <<<'EOD'
         <h2>Waar hangt de prijs van af?</h2>
         <p>Bij caravans, stacaravans en campers zijn zitkussens vaak maatwerk. Hoeken, rondingen of schuine vormen vragen meer tijd en precisie dan rechte kussens. Ook het aantal kussens en de totale lengte van de zitbank spelen mee in de investering.</p>

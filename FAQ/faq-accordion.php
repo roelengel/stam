@@ -13,8 +13,8 @@
  * nooit botsen met variabelen elders op de pagina (bijv. de stoelen-lijst).
  */
 
-function render_faq_accordion(array $faqs): void {
-
+function render_faq_accordion(array $faqs) {
+	
     if (empty($faqs)) {
         return; // niets te tonen, geen lege accordion of lege schema renderen
     }
@@ -59,7 +59,7 @@ function render_faq_accordion(array $faqs): void {
         margin-bottom: 1rem;
     }
     .faq-item {
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid #230702;
     }
     .faq-question {
         width: 100%;
@@ -85,7 +85,7 @@ function render_faq_accordion(array $faqs): void {
         transform: rotate(45deg);
     }
     .faq-answer {
-        padding: 0 0 1rem 0;
+        padding: 0 0 2rem 0;
     }
     .faq-answer p {
         margin: 0;

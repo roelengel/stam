@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /stoffenkiezer/full-picture-stof.php
+Disallow: /_fonts/
+Disallow: /_includes/
+Disallow: /ulil.inc.php
+Disallow: /index2.php
+Disallow: /index-oud.php
+
+Sitemap: https://www.stamstoffeeratelier.nl/_sitemap/sitemap.xml

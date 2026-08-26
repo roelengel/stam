@@ -104,8 +104,8 @@ $all_faqs = [
 
     // --- HORECA ---
     [
-        'q' => 'Kunnen jullie een hele horecazaak in één keer aanpakken?',
-        'a' => 'Ja, van terrasmeubilair tot binnenstoelen -- ik kan een volledige horecazaak in één traject herstofferen, met slijtvaste stoffen die tegen intensief gebruik kunnen.',
+        'q' => 'Kun je een hele horecazaak in één keer aanpakken?',
+        'a' => 'Ja, van terrasmeubilair tot binnenstoelen. Iik kan een volledige horecazaak in één traject herstofferen, met slijtvaste stoffen die tegen intensief gebruik kunnen.',
         'categories' => ['horeca'],
     ],
     [
@@ -114,7 +114,19 @@ $all_faqs = [
         'categories' => ['horeca'],
     ],
 
-    // --- SPORTKANTINES ---
+    // --- EETKAMERBANKEN OP MAAT ---
+	[
+		'q' => 'Kan een eetkamerbank helemaal op maat gemaakt worden?',
+		'a' => 'Ja, ik stem de bank af op de afmetingen van jouw eethoek en tafel, inclusief de juiste zithoogte en zitdiepte voor comfortabel zitten.',
+		'categories' => ['eetkamerbank-op-maat'],
+	],
+	[
+		'q' => 'Welke stoffen zijn geschikt voor een eetkamerbank?',
+		'a' => 'Omdat een eetkamerbank intensief gebruikt wordt, kies ik meestal een stevige, slijtvaste stof met een hoge Martindale-waarde, zodat de bekleding er ook na jaren gebruik nog netjes uitziet.',
+		'categories' => ['eetkamerbank-op-maat'],
+	],
+	
+	// --- SPORTKANTINES ---
     [
         'q' => 'Stofferen jullie ook sportkantines en fitnessapparatuur?',
         'a' => 'Ja, van kantinestoelen tot de bekleding van fitnessapparaten -- ik werk met slijtvaste materialen die tegen veelvuldig gebruik bestand zijn.',

@@ -88,7 +88,7 @@
 <!--artikel content   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    -->
 		<div id="advies-content-D">
 			<div id="advies-hero-D">
-				<img src="../../_images/<? echo $image;?>" class="border-S">
+				<img src="../../_images/<? echo $image;?>" class="border-S" alt="<? echo $faq_category;?> stofferen">
 			</div>
 			<div id="space_10"></div>
 			<h1 class="s36"><? echo $h1;?></h1>
@@ -210,16 +210,16 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../../stoffenkiezer/index.php?category=effen">
-					<img src="../../_images/stof1.jpg" class="car-image" >
+					<img src="../../_images/stof1.jpg" class="car-image" alt="stof - effen teal" >
 					<div id="caroussel-D-subtitle">Effen</div>
-					<div id="caroussel-D-title">Hopper Teal</div>
+					<div id="caroussel-D-title">Teal</div>
 				</a>
 			</div>
 			<div id="carr-D-type1-space">&nbsp;</div>
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../../stoffenkiezer/index.php?category=patroon">
-					<img src="../../_images/stof2.jpg" class="car-image" >
+					<img src="../../_images/stof2.jpg" class="car-image" alt="stof - patroon gobelin barbados negro" >
 					<div id="caroussel-D-subtitle">Patroon</div>
 					<div id="caroussel-D-title">Gobelin Barbados Negro</div>
 				</a>
@@ -228,34 +228,34 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../../stoffenkiezer/index.php?category=buitenstof">
-					<img src="../../_images/stof3.jpg" class="car-image" >
+					<img src="../../_images/stof3.jpg" class="car-image" alt="buitenstof - oranje/terra" >
 					<div id="caroussel-D-subtitle">Buitenstof</div>
-					<div id="caroussel-D-title">Screen 21-N Oranje/Terra</div>
+					<div id="caroussel-D-title">Oranje/Terra</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../../stoffenkiezer/index.php?category=rib">
-					<img src="../../_images/stof4.jpg" class="car-image" >
+					<img src="../../_images/stof4.jpg" class="car-image" alt="stof - grove rib geel" >
 					<div id="caroussel-D-subtitle">Rib</div>
-					<div id="caroussel-D-title">Runagain Geel</div>
+					<div id="caroussel-D-title">Grove Rib Geel</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>	
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../../stoffenkiezer/index.php?category=velours">
-					<img src="../../_images/stof5.jpg" class="car-image" >
+					<img src="../../_images/stof5.jpg" class="car-image" alt="stof - velours donker blauw" >
 					<div id="caroussel-D-subtitle">Velours</div>
-					<div id="caroussel-D-title">Ikoo Donker Blauw</div>
+					<div id="caroussel-D-title">Donker Blauw</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>	
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../../stoffenkiezer/index.php?category=patroon">
-					<img src="../../_images/stof6.jpg" class="car-image" >
+					<img src="../../_images/stof6.jpg" class="car-image" alt="stof - patroon gobelin curry mini" >
 					<div id="caroussel-D-subtitle">Patroon</div>
 					<div id="caroussel-D-title">Gobelin Curry Mini</div>
 				</a>
@@ -265,16 +265,143 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../../stoffenkiezer/">
-					<img src="../../_images/meerstoffen.jpg" class="car-image" >
+					<img src="../../_images/meerstoffen.jpg" class="car-image" alt="bekijk meer stoffen - stapel van stoffen" >
 					<div id="caroussel-D-subtitle">Bekijk meer</div>
 					<div id="caroussel-D-title">Kies uit meer dan 1000 stoffen</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>				
 			<div id="space_50_eigenlijn_anchor"></div>
-		</div>			
+		</div>	
+		
+<!--CATEGORIEEN DESKTOP  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
+		<div id="header-D">
+			<div id="space_50"></div>
+			<div id="header-D-content">
+				<div id="header-D-content-left">
+						<h1 class="s36" style="margin-top:5px;">Wat wil jij laten stofferen?</h1></a>
+						<div id="space_10"></div>
+				</div>
+			</div>
+			<div id="space_1"></div>
+		</div>
+		<div id="categorien-D">
+			<div id="categorie-D" style="background-image: url(../../_images/categorie-stoel.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/stoelen-eetkamerstoelen-stofferen/">
+					<div id="categorie-D-text">
+						Stoelen en eetkamerstoelen
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-horeca.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/stofferen-in-de-horeca/">
+					<div id="categorie-D-text">
+						<span class="tag-category">Zakelijk</span>
+						Horeca terrasen en horeca binnen
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-fauteuil.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/fauteuil-stofferen/">
+					<div id="categorie-D-text">
+						Fauteuils
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<div id="space_50"></div>
+
+		<div id="categorien-D">
+			<div id="categorie-D" style="background-image: url(../../_images/categorie-caravan.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/caravans-stacaravans-campers-stofferen/">
+					<div id="categorie-D-text">
+						Caravans, stacaravans en campers
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-sportclub.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/sportkantines-fitnessapparaten-stofferen/">
+					<div id="categorie-D-text">
+						<span class="tag-category">Zakelijk</span>
+						Sportkantines en fitnessapparaten
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-tuinkussens-beeld04.jpg); background-size:100%; background-position: top center;">
+				<a href="../../stofferen/tuinkussens-laten-maken/">
+					<div id="categorie-D-text">
+						Tuinkussens
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+		</div>	
+	
+		<div id="space_50"></div>
+
+		<div id="categorien-D">
+			<div id="categorie-D" style="background-image: url(../../_images/categorie-boot.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/bootkussens-laten-maken/">
+					<div id="categorie-D-text">
+						Bootkussens
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-eetkamerbank.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/eetkamerbank-op-maat-stofferen/">
+					<div id="categorie-D-text">
+						Eetkamerbanken op maat
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+		</div>	
+	
+		<div id="space_50"></div>
+	
+	
+
+
 		
 		
+<!--FAQ dekstop  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+		<div id="FAQ-D">
+			<div id="space_50"></div>
+			<?php
+				require_once __DIR__ . '/../FAQ/index.php';
+				require_once __DIR__ . '/../FAQ/faq-accordion.php';
+
+				if (!empty($faq_category)) {
+					$faqs_category = get_faqs_by_category($all_faqs, [$faq_category]);
+					$faqs_general  = get_faqs_by_category($all_faqs, ['algemeen']);
+
+					// Categorie-specifiek eerst, dan algemeen erachteraan -- zonder duplicaten
+					$faqs = $faqs_category;
+					foreach ($faqs_general as $faq) {
+						$al_aanwezig = false;
+						foreach ($faqs_category as $cat_faq) {
+							if ($cat_faq['q'] === $faq['q']) {
+								$al_aanwezig = true;
+								break;
+							}
+						}
+						if (!$al_aanwezig) {
+							$faqs[] = $faq;
+						}
+					}
+
+					render_faq_accordion($faqs);
+				}
+			?>
+			<div id="space_50"></div>
+		</div>
 		
 		
 		
@@ -465,31 +592,31 @@
 				<div id="caroussel-M-emptyitem">&nbsp;</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../../stoffenkiezer/index.php?category=effen" class="link-white">
-					<img src="../../_images/stof1.jpg" class="car-image" >
+					<img src="../../_images/stof1.jpg" class="car-image" alt="stof - teal effen" >
 					<div id="caroussel-M-title">Teal</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../../stoffenkiezer/index.php?category=patroon">
-					<img src="../../_images/stof2.jpg"  class="car-image">
+					<img src="../../_images/stof2.jpg"  class="car-image" alt="stof - gobelin barbados negro">
 					<div id="caroussel-M-title">Gobelin Barbados Negro</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../../stoffenkiezer/index.php?category=buitenstof">
-					<img src="../../_images/stof3.jpg"  class="car-image">
+					<img src="../../_images/stof3.jpg"  class="car-image" alt="buitenstof - terra" >
 					<div id="caroussel-M-title">Buitenstof Terra</div>
 					</a>
 				</div>	
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../../stoffenkiezer/index.php?category=rib">
-					<img src="../../_images/stof4.jpg" class="car-image" >
+					<img src="../../_images/stof4.jpg" class="car-image" alt="stof - grove rib geel" >
 					<div id="caroussel-M-title">Grove Rib Geel</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../../stoffenkiezer/">
-					<img src="../../_images/meerstoffen.jpg" class="car-image" >
+					<img src="../../_images/meerstoffen.jpg" class="car-image" alt="bekijk meer stoffen - stapel van stoffen" >
 					<div id="caroussel-M-title">Kies uit meer dan 1000 stoffen</div>
 					</a>
 				</div>	
@@ -504,9 +631,124 @@
 			
 		</div>	
 
-		<div id="space_50"></div>
-
+<!--Mobile categorieen  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
 		
+		
+		<div id="space_50_eigenlijn_anchor"></div>		
+		<div id="blok-top-M" class="dark-text">
+			<div id="blok-top-M-title">
+				<a href="eigen-lijn/" style="color: #230702; text-decoration:none;"><h1 class="s24" style="margin-top:5px;">Wat wil jij laten stofferen?</h1></a>
+			</div>
+			<div id="space_10"></div>
+			
+			<div id="caroussel-L-M">
+				<div id="caroussel-M-emptyitem">&nbsp;</div>
+
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-stoel.jpg); background-size:100%;">					
+					<a href="../../stofferen/stoelen-eetkamerstoelen-stofferen/">
+						<div id="category-M">
+							Stoelen en eetkamerstoelen<br><br>
+						</div>
+					</a>
+				</div>
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-horeca.jpg); background-size:100%;">					
+					<a href="../../stofferen/stofferen-in-de-horeca/">
+						<div id="category-M">
+							<span class="tag-category">Zakelijk</span>
+							Horeca terrassen en horeca binnen<br><br>
+						</div>
+					</a>
+				</div>	
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-fauteuil.jpg); background-size:100%;">					
+					<a href="../../stofferen/fauteuil-stofferen/">
+						<div id="category-M">
+							Fauteuils<br><br>
+						</div>
+					</a>
+				</div>						
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-caravan.jpg); background-size:100%;">					
+					<a href="../../stofferen/caravans-stacaravans-campers-stofferen/">
+						<div id="category-M">
+							Caravans, stacaravans en campers<br><br>
+						</div>
+					</a>
+				</div>	
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-sportclub.jpg); background-size:100%;">					
+					<a href="../../stofferen/sportkantines-fitnessapparaten-stofferen/">
+						<div id="category-M">
+							<span class="tag-category">Zakelijk</span>
+							Sportkantines en fitnessapparaten<br><br>
+						</div>
+					</a>
+				</div>	
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-tuinkussens.jpg); background-size:100%;">					
+					<a href="../../stofferen/tuinkussens-laten-maken/">
+						<div id="category-M">
+							Tuinkussens<br><br>
+						</div>
+					</a>
+				</div>					
+
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-boot.jpg); background-size:100%;">					
+					<a href="../../stofferen/bootkussens-laten-maken/">
+						<div id="category-M">
+							Bootkussens<br><br>
+						</div>
+					</a>
+				</div>
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-eetkamerbank.jpg); background-size:100%;">					
+					<a href="../../stofferen/eetkamerbank-op-maat-stofferen">
+						<div id="category-M">
+							Eetkamerbanken en op maat banken<br><br>
+						</div>
+					</a>
+				</div>
+								
+				
+				<div id="caroussel-L-M-emptyitem">&nbsp;</div>
+				
+			</div>
+			<div id="space_50"></div>
+		</div>		
+<!--FAQ mobile  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+		<div id="FAQ-M">
+			<div id="FAQ-M-content">
+				<div id="space_50"></div>
+				<?php
+					require_once __DIR__ . '/../FAQ/index.php';
+					require_once __DIR__ . '/../FAQ/faq-accordion.php';
+
+					if (!empty($faq_category)) {
+						$faqs_category = get_faqs_by_category($all_faqs, [$faq_category]);
+						$faqs_general  = get_faqs_by_category($all_faqs, ['algemeen']);
+
+						// Categorie-specifiek eerst, dan algemeen erachteraan -- zonder duplicaten
+						$faqs = $faqs_category;
+						foreach ($faqs_general as $faq) {
+							$al_aanwezig = false;
+							foreach ($faqs_category as $cat_faq) {
+								if ($cat_faq['q'] === $faq['q']) {
+									$al_aanwezig = true;
+									break;
+								}
+							}
+							if (!$al_aanwezig) {
+								$faqs[] = $faq;
+							}
+						}
+
+						render_faq_accordion($faqs);
+					}
+				?>
+				<div id="space_50"></div>
+			</div>
+		</div>
 		
 	<!--OVERMIJ   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
 		<div id="blok-bottom-M" class="bg-color-overmij white-text">

@@ -15,6 +15,8 @@
     $prijs_tot = "400";
     $prijs_context = "Richtprijs voor een tuinkussen tot tuinset, inclusief buitenstof en vulling. De uiteindelijke investering hangt af van het formaat, de vorm en het aantal kussens.";
 
+	$faq_category = "tuinkussens";
+
     $body = <<<'EOD'
         <h2>Waar hangt de prijs van af?</h2>
         <p>Bij tuinkussens speelt de vorm een grote rol. Een recht zitkussen is eenvoudig te maken, terwijl een kussen met een schuine hoek, ronding of speciale uitsparing meer tijd en precisie vraagt. Ook het aantal kussens en de totale lengte van de zitbank bepalen de investering.</p>
@@ -23,12 +25,12 @@
 
         <h2>Duurzame stoffen voor buiten</h2>
         <p>Buitenstoffen moeten tegen zon, regen en veel gebruik kunnen. In de <a href="../../stoffenkiezer/">Stoffenkiezer</a> vind je sterke outdoorstoffen die waterafstotend, vuilafstotend en kleurvast zijn. Zo blijven jouw tuinkussens langer mooi, ook in de zomerzon.</p>
-        <img src="../../_images/categorie-tuinkussens-beeld02.jpg" class="border-S" style="width:100%;">
+        <img src="../../_images/categorie-tuinkussens-beeld02.jpg" class="border-S" style="width:100%;" alt="tuinkussenset close-up">
 
         <h2>Maatwerk voor elke tuinbank of loungeset</h2>
         <p>Omdat elke tuinbank en loungeset anders is qua afmetingen en indeling, maak ik het liefst een offerte op basis van foto’s en maten. Zo krijg je tuinkussens die precies passen en aansluiten op jouw stijl en gebruik.</p>
 
-        <img src="../../_images/categorie-tuinkussens-beeld03.jpg" class="border-S" style="width:100%;">
+        <img src="../../_images/categorie-tuinkussens-beeld03.jpg" class="border-S" style="width:100%;" alt="tuinkussenset - complete tuinbank met nieuwe kussens">
 EOD;
 ?>
 

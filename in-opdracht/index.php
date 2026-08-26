@@ -79,7 +79,7 @@
 			<div id="space_50"></div>
 			<div id="header-D-content">
 				<div id="header-D-content-1">
-					<img src="../_images/inopdracht-desktop.jpg" style="width:100%;">
+					<img src="../_images/inopdracht-desktop.jpg" style="width:100%;" alt="Nina Stam - eigenaar van Stam Stoffeeraltelier - in haar werkplaats">
 
 				</div>
 				<div id="header-D-content-2">
@@ -188,17 +188,17 @@
 		<div id="carr-D-blue">
 			<div id="carr-D-type1c-firstspace"><div id="space_3"></div></div><div id="carr-D-type1">
 				<div id="space_50"></div>
-				<a href="../stoffenkiezer/index.php?category=effen">
+				<a href="../stoffenkiezer/index.php?category=effen" alt="stof - effen teal">
 					<img src="../_images/stof1.jpg" class="car-image" >
 					<div id="caroussel-D-subtitle">Effen</div>
-					<div id="caroussel-D-title">Hopper Teal</div>
+					<div id="caroussel-D-title">Teal</div>
 				</a>
 			</div>
 			<div id="carr-D-type1-space">&nbsp;</div>
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../stoffenkiezer/index.php?category=patroon">
-					<img src="../_images/stof2.jpg" class="car-image" >
+					<img src="../_images/stof2.jpg" class="car-image" alt="stof - patroon gobelin barbados negro" >
 					<div id="caroussel-D-subtitle">Patroon</div>
 					<div id="caroussel-D-title">Gobelin Barbados Negro</div>
 				</a>
@@ -207,34 +207,34 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../stoffenkiezer/index.php?category=buitenstof">
-					<img src="../_images/stof3.jpg" class="car-image" >
+					<img src="../_images/stof3.jpg" class="car-image" alt="buitenstof - oranje/terra" >
 					<div id="caroussel-D-subtitle">Buitenstof</div>
-					<div id="caroussel-D-title">Screen 21-N Oranje/Terra</div>
+					<div id="caroussel-D-title">Oranje/Terra</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../stoffenkiezer/index.php?category=rib">
-					<img src="../_images/stof4.jpg" class="car-image" >
+					<img src="../_images/stof4.jpg" class="car-image" alt="stof - grove rib geel" >
 					<div id="caroussel-D-subtitle">Rib</div>
-					<div id="caroussel-D-title">Runagain Geel</div>
+					<div id="caroussel-D-title">Grove Rib Geel</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>	
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../stoffenkiezer/index.php?category=velours">
-					<img src="../_images/stof5.jpg" class="car-image" >
+					<img src="../_images/stof5.jpg" class="car-image" alt="stof - velours donker blauw">
 					<div id="caroussel-D-subtitle">Velours</div>
-					<div id="caroussel-D-title">Ikoo Donker Blauw</div>
+					<div id="caroussel-D-title"> Donker Blauw</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>	
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../stoffenkiezer/index.php?category=patroon">
-					<img src="../_images/stof6.jpg" class="car-image" >
+					<img src="../_images/stof6.jpg" class="car-image" alt="stof - patroon gobelin curry mini" >
 					<div id="caroussel-D-subtitle">Patroon</div>
 					<div id="caroussel-D-title">Gobelin Curry Mini</div>
 				</a>
@@ -244,7 +244,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../stoffenkiezer/">
-					<img src="../_images/meerstoffen.jpg" class="car-image" >
+					<img src="../_images/meerstoffen.jpg" class="car-image" alt="bekijk meer stoffen" >
 					<div id="caroussel-D-subtitle">Bekijk meer</div>
 					<div id="caroussel-D-title">Kies uit meer dan 1000 stoffen</div>
 				</a>
@@ -279,7 +279,7 @@
 ?>
 							<div id="gallery-D-item">
 								<a href="stoel.php?id=<? echo $id;?>" class="link-white">
-										<img src="../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" class="car-image" >
+										<img src="../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" class="car-image" alt="<? echo $title;?>">
 										<div id="space_20"></div>
 										<div id="gallery-D-item-title-50"><? echo $title;?></div>
 										<div id="space_20"></div>
@@ -303,43 +303,73 @@
 			</div>
 		</div>
 		
-		<div id="small-content">
-			<div id="meer-eigen-lijn-M-content">
-				<span style="font-size:24px; font-weight:900;">Wil jij iets laten stofferen?</span>
+<!--NEEM CONTACT OP dekstop  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+		<div id="neem-contact-op-D">
+			<div id="neem-contact-op-D-content">
 				<div id="space_20"></div>
 				<div id="space_10"></div>
-
-
-				Ik ben heel goed te bereiken. Geen ingewikkelde formulieren. Stuur mij een bericht per WhatsApp, mail of Instagram en ik reageer zo snel mogelijk!
+				<h2>Wil jij iets laten stofferen?</span></h2>
+				Ik ben heel goed te bereiken. Geen ingewikkelde formulieren. Stuur mij een bericht per WhatsApp, mail of Instagram en ik reageer zo snel mogelijk!<br><br>
+				<div style="width:10%; float:left;">
+					<img src="../../_images/nina-small2.jpg" style="width:100%; border-radius: 100px;">
+				</div>
+				<div style="width:2%; float:left;"> &nbsp;</div>
+				<div style="width:80%; float:left;">
+					<div id="space_20"></div>
+					<span class="font-weight-600">Nina Stam</span><br>
+					Eigenaar Stam Stoffeeratelier
+				</div>
 				<div id="space_20"></div>
-				<div id="contact-M-acc-1">
+				<div id="contact-D-acc-1">
 					<a href="https://wa.me/31643094294">
 						<div id="space_20"></div>
-						<div id="contact-M-acc-left">Stuur een WhatsApp <span class="phone-number">&nbsp;(06 43 094 294)</span></div>
-
-						<div id="contact-M-acc-right"><div id="space_3"></div><img src="../_images/forward.png" style="height: 13px;"></div>
+						<div id="contact-D-acc-left">Stuur een WhatsApp <span class="phone-number">&nbsp;(06 43 094 294)</span></div>
+						<div id="contact-D-acc-right"><div id="space_3"></div><img src="../../_images/forward.png" style="height: 13px;"></div>
 						<div id="space_20"></div>
 					</a>
 				</div>
-				<div id="contact-M-acc-2">
+				<div id="contact-D-acc-2">
 					<a href="mailto:nina@stamstoffeeratelier.nl">
 						<div id="space_20"></div>
-						<div id="contact-M-acc-left">Stuur een mail</div>
-						<div id="contact-M-acc-right"><div id="space_3"></div><img src="../_images/forward.png" style="height: 13px;"></div>
+						<div id="contact-D-acc-left">Stuur een mail</div>
+						<div id="contact-D-acc-right"><div id="space_3"></div><img src="../../_images/forward.png" style="height: 13px;"></div>
 						<div id="space_20"></div>
 					</a>
 				</div>					
-				<div id="contact-M-acc-3">
+				<div id="contact-D-acc-3">
 					<a href="https://www.instagram.com/nina.stoffeert/">
 						<div id="space_20"></div>
-						<div id="contact-M-acc-left">Stuur een DM via Instagram</div>
-						<div id="contact-M-acc-right"><div id="space_3"></div><img src="../_images/forward.png" style="height: 13px;"></div>
+						<div id="contact-D-acc-left">Stuur een DM via Instagram</div>
+						<div id="contact-D-acc-right"><div id="space_3"></div><img src="../../_images/forward.png" style="height: 13px;"></div>
 						<div id="space_20"></div>
 					</a>
 				</div>
 			</div>
 			<div id="space_100"></div>
 		</div>
+	
+		
+		
+<!--FAQ dekstop  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+		<div id="FAQ-D">
+			<div id="space_50"></div>
+				<?php
+					require_once __DIR__ . '/../FAQ/index.php';
+					require_once __DIR__ . '/../FAQ/faq-accordion.php';
+
+					$faqs = get_faqs_by_category($all_faqs, [
+						'algemeen',
+						'eetkamerstoelen',
+						'fauteuils',
+						'tuinkussens',
+						'caravans-campers'
+					]);
+					render_faq_accordion($faqs);
+				?>
+			<div id="space_50"></div>
+		</div>
+		
+
 		
 		
 		
@@ -387,7 +417,7 @@
 		<div id="space_50"></div>
 		<div id="space_20"></div>
 		<div id="pagina-inopdracht-M-topimage">
-			<img src="../_images/top-image-inopdracht-M.jpg" style="width:100%;">
+			<img src="../_images/top-image-inopdracht-M.jpg" style="width:100%;" alt="Nina Stam - eigenaar van Stam Stoffeeraltelier - in haar werkplaats">
 		</div>
 		<div id="pagina-inopdracht-M">
 			<div id="pagina-inopdracht-M-content">
@@ -489,31 +519,31 @@
 				<div id="caroussel-M-emptyitem">&nbsp;</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/index.php?category=effen" class="link-white">
-					<img src="../_images/stof1.jpg" class="car-image" >
+					<img src="../_images/stof1.jpg" class="car-image" alt="stof - teal">
 					<div id="caroussel-M-title">Teal</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/index.php?category=patroon">
-					<img src="../_images/stof2.jpg"  class="car-image">
+					<img src="../_images/stof2.jpg"  class="car-image" alt="stof - gobelin barbados negro">
 					<div id="caroussel-M-title">Gobelin Barbados Negro</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/index.php?category=buitenstof">
-					<img src="../_images/stof3.jpg"  class="car-image">
+					<img src="../_images/stof3.jpg"  class="car-image" alt="buitenstof - terra">
 					<div id="caroussel-M-title">Buitenstof Terra</div>
 					</a>
 				</div>	
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/index.php?category=rib">
-					<img src="../_images/stof4.jpg" class="car-image" >
+					<img src="../_images/stof4.jpg" class="car-image" alt="stof - grove rib geel" >
 					<div id="caroussel-M-title">Grove Rib Geel</div>
 					</a>
 				</div>
 				<div id="caroussel-M-item" class="slide-in-M">
 					<a href="../stoffenkiezer/">
-					<img src="../_images/meerstoffen.jpg" class="car-image" >
+					<img src="../_images/meerstoffen.jpg" class="car-image" alt="bekijk meer stoffen - stapel van stoffen" >
 					<div id="caroussel-M-title">Kies uit meer dan 1000 stoffen</div>
 					</a>
 				</div>					
@@ -535,7 +565,7 @@
 		
 		
 		
-<!--ijn werk   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+<!--Mijn werk mobile  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
 		<div id="pagina-M">
 			<div id="space_20"></div>
 			<div id="pagina-M-content">
@@ -562,7 +592,7 @@
 							<div id="list-item-M">
 								<a href="stoel.php?id=<? echo $id;?>" class="link-white">
 									<div id="list-item-inopdracht-M-left">
-										<img src="../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" class="border-S" >
+										<img src="../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" class="border-S"  alt="<? echo $title;?>" >
 									</div>
 									<div id="list-item-inopdracht-M-right">
 										<div id="space_90"></div>
@@ -633,7 +663,26 @@
 				<div id="space_20"></div>
 		</div>
 
-		
+<!--FAQ mobile  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+		<div id="FAQ-M">
+			<div id="FAQ-M-content">
+				<div id="space_50"></div>
+				<?php
+					require_once __DIR__ . '/../FAQ/index.php';
+					require_once __DIR__ . '/../FAQ/faq-accordion.php';
+
+					$faqs = get_faqs_by_category($all_faqs, [
+						'algemeen',
+						'eetkamerstoelen',
+						'fauteuils',
+						'tuinkussens',
+						'caravans-campers'
+					]);
+					render_faq_accordion($faqs);
+				?>
+				<div id="space_50"></div>
+			</div>		
+		</div>	
 		
 		
 <!--END OF MOBILE  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	

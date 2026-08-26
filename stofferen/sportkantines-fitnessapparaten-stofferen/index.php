@@ -16,6 +16,8 @@
     $prijs_tot = "xx";
     $prijs_context = "Richtprijs per onderdeel, afhankelijk van formaat, materiaalkeuze en gebruiksintensiteit.";
 
+	$faq_category = "sportkantines";
+
     $body = <<<'EOD'
         <h2>Sportkantines: sfeer en slijtvastheid</h2>
         <p>In sportkantines draait het om een uitnodigende sfeer waar teams, supporters en bezoekers zich prettig voelen. Zitbanken, stoelen en barkrukken worden intensief gebruikt en moeten tegen dagelijks schuiven, morsen en schoonmaken kunnen. Daarom werk ik met sterke projectstoffen en kunstleer dat makkelijk te onderhouden is.</p>

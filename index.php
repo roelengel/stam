@@ -106,7 +106,7 @@
 	
 			<div id="header-D-content">
 				<div id="header-D-content-1">
-					<img src="_images/home-beeld2.jpg" style="width:100%;" class="border-S">
+					<img src="_images/home-beeld2.jpg" style="width:100%;" class="border-S" alt="Nina Stam - eigenaar van Stam Stoffeeratelier - bij haar bus">
 
 				</div>
 				<div id="header-D-content-2">
@@ -187,9 +187,9 @@
 					<!--<a href="in-opdracht/stoel.php?id=7"><img src="_images/desktop-inopdracht7.jpg" class="car-image" style="width:100%;"></a> -->
 					<!-- stoel animatie-->
 						<div class="ba" id="ba">
-						  <img src="_images/stoel01-voor.jpg" class="voor border-S">
+						  <img src="_images/stoel01-voor.jpg" class="voor border-S" alt="Deense design stoel vóór het stofferen, met open binnenwerk zichtbaar">
 						  <div class="na-wrap">
-							<img src="_images/stoel01-na.jpg" class="na border-S">
+							<img src="_images/stoel01-na.jpg" class="na border-S" alt="Deense design stoel gestoffeerd in roze teddystof">
 						  </div>
 						  <div class="line"></div>
 						</div>
@@ -256,7 +256,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=12">
-					<img src="_images/in-opdracht-car12.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car12.jpg" class="car-image" alt="Design bank - op maat gemaakte kussens" >
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Design bank - op maat gemaakte kussens</div>
 				</a>
@@ -266,7 +266,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=13">
-					<img src="_images/in-opdracht-car13.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car13.jpg" class="car-image" alt="8 Eetkamer stoelen in diverse stoffen">
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">8 Eetkamer stoelen in diverse stoffen</div>
 				</a>
@@ -276,7 +276,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=11">
-					<img src="_images/in-opdracht-car11.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car11.jpg" class="car-image" alt="Volledige bekleding van stacaravan" >
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Volledige bekleding van stacaravan</div>
 				</a>
@@ -285,7 +285,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=9">
-					<img src="_images/in-opdracht-car9.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car9.jpg" class="car-image" alt="Klassieke blauwe velvet" >
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Klassieke blauwe velvet</div>
 				</a>
@@ -294,7 +294,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=6">
-					<img src="_images/in-opdracht-car6.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car6.jpg" class="car-image" alt="Tuin loungeset voorzien van nieuwe kussens" >
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Tuin loungeset voorzien van nieuwe kussens</div>
 				</a>
@@ -304,7 +304,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=2">
-					<img src="_images/in-opdracht-car2.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car2.jpg" class="car-image" alt="Nieuwe bekleding retro fauteuil" >
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Nieuwe bekleding retro fauteuil</div>
 				</a>
@@ -314,7 +314,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=5">
-					<img src="_images/in-opdracht-car5.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car5.jpg" class="car-image" alt="Bamboe stoel met jungle stof">
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Bamboe stoel met jungle stof</div>
 				</a>
@@ -323,7 +323,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=3">
-					<img src="_images/in-opdracht-car3.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car3.jpg" class="car-image" alt="Stoel Deens design met retro stof" >
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Stoel Deens design met retro stof</div>
 				</a>
@@ -333,7 +333,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=1">
-					<img src="_images/in-opdracht-car1.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car1.jpg" class="car-image" alt="Antieke stoel opnieuw bekleed" >
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Antieke stoel opnieuw bekleed</div>
 				</a>
@@ -342,7 +342,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=10">
-					<img src="_images/in-opdracht-car10.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car10.jpg" class="car-image" alt="Fuchsia Velvet stoel" >
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Fuchsia Velvet stoel</div>
 				</a>
@@ -351,7 +351,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="in-opdracht/stoel.php?id=7">
-					<img src="_images/in-opdracht-car7.jpg" class="car-image" >
+					<img src="_images/in-opdracht-car7.jpg" class="car-image" alt="Fauteuil in grove rib" >
 					<div id="caroussel-D-subtitle">In opdracht</div>
 					<div id="caroussel-D-title">Fauteuil in grove rib</div>
 				</a>
@@ -498,16 +498,16 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="stoffenkiezer/index.php?category=effen">
-					<img src="_images/stof1.jpg" class="car-image" >
+					<img src="_images/stof1.jpg" class="car-image" alt="effen stof - teal" >
 					<div id="caroussel-D-subtitle">Effen</div>
-					<div id="caroussel-D-title">Hopper Teal</div>
+					<div id="caroussel-D-title">Teal</div>
 				</a>
 			</div>
 			<div id="carr-D-type1-space">&nbsp;</div>
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="stoffenkiezer/index.php?category=patroon">
-					<img src="_images/stof2.jpg" class="car-image" >
+					<img src="_images/stof2.jpg" class="car-image" alt="patroon stof - gobelin barbados negro" >
 					<div id="caroussel-D-subtitle">Patroon</div>
 					<div id="caroussel-D-title">Gobelin Barbados Negro</div>
 				</a>
@@ -516,34 +516,34 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="stoffenkiezer/index.php?category=buitenstof">
-					<img src="_images/stof3.jpg" class="car-image" >
+					<img src="_images/stof3.jpg" class="car-image" alt="buitenstof - terra" >
 					<div id="caroussel-D-subtitle">Buitenstof</div>
-					<div id="caroussel-D-title">Screen 21-N Oranje/Terra</div>
+					<div id="caroussel-D-title">Terra</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="stoffenkiezer/index.php?category=rib">
-					<img src="_images/stof4.jpg" class="car-image" >
+					<img src="_images/stof4.jpg" class="car-image" alt="stof - grove rib geel" >
 					<div id="caroussel-D-subtitle">Rib</div>
-					<div id="caroussel-D-title">Runagain Geel</div>
+					<div id="caroussel-D-title">Grove Rib Geel</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>	
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="stoffenkiezer/index.php?category=velours">
-					<img src="_images/stof5.jpg" class="car-image" >
+					<img src="_images/stof5.jpg" class="car-image" alt="stof - velours donker blauw" >
 					<div id="caroussel-D-subtitle">Velours</div>
-					<div id="caroussel-D-title">Ikoo Donker Blauw</div>
+					<div id="caroussel-D-title">Donker Blauw</div>
 				</a>
 			</div>				
 			<div id="carr-D-type1-space">&nbsp;</div>	
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="stoffenkiezer/index.php?category=patroon">
-					<img src="_images/stof6.jpg" class="car-image" >
+					<img src="_images/stof6.jpg" class="car-image" alt="patroon - gobelin curry mini" >
 					<div id="caroussel-D-subtitle">Patroon</div>
 					<div id="caroussel-D-title">Gobelin Curry Mini</div>
 				</a>
@@ -553,7 +553,7 @@
 			<div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="stoffenkiezer/">
-					<img src="_images/meerstoffen.jpg" class="car-image" >
+					<img src="_images/meerstoffen.jpg" class="car-image" alt="bekijk meer stoffen" >
 					<div id="caroussel-D-subtitle">Bekijk meer</div>
 					<div id="caroussel-D-title">Kies uit meer dan 1000 stoffen</div>
 				</a>
@@ -850,7 +850,7 @@
 			</div>
 			<div id="space_20"></div>
 			<div id="blok-top-M-image">
-				<img src="_images/home-top-m2.jpg" style="width:100%;" class="border-S">
+				<img src="_images/home-top-m2.jpg" style="width:100%;" class="border-S" alt="Nina Stam - eigenaar van Stam Stoffeeratelier - bij haar bus">
 			</div>
 			<div id="space_10"></div>
 			<div id="blok-top-M-buttons">
@@ -884,9 +884,9 @@
 				</a>-->
 					<!-- stoel animatie-->
 						<div class="ba" id="ba">
-						  <img src="_images/stoel01-voor.jpg" class="voor border-S">
+						  <img src="_images/stoel01-voor.jpg" class="voor border-S" alt="Deense design stoel vóór het stofferen, met open binnenwerk zichtbaar">
 						  <div class="na-wrap">
-							<img src="_images/stoel01-na.jpg" class="na border-S">
+							<img src="_images/stoel01-na.jpg" class="na border-S" alt="Deense design stoel gestoffeerd in roze teddystof">
 						  </div>
 						  <div class="line"></div>
 						</div>
