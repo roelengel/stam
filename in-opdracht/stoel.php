@@ -139,22 +139,22 @@
 				</div>
 				
 				<? if ($images >"1"){?>
-				<div id="stoel-D-car-item-margin" style="background-image: url('../_images/in-opdracht-large<? echo $id;?>-2.jpg'); " class="animate-right-2" >
+				<div id="stoel-D-car-item-margin" style="background-image: url('../_images/in-opdracht-large<? echo $id;?>-2.jpg'); " class="animate-right-2" loading="lazy" >
 					&nbsp
 				</div>
 				<? } ?>			
 				<? if ($images >"2"){?>
-				<div id="stoel-D-car-item-margin" style="background-image: url('../_images/in-opdracht-large<? echo $id;?>-3.jpg'); " class="animate-right-3" >
+				<div id="stoel-D-car-item-margin" style="background-image: url('../_images/in-opdracht-large<? echo $id;?>-3.jpg'); " class="animate-right-3" loading="lazy" >
 					&nbsp;
 				</div>
 				<? } ?>	
 				<? if ($images >"3"){?>
-				<div id="stoel-D-car-item-margin" style="background-image: url('../_images/in-opdracht-large<? echo $id;?>-4.jpg'); ">
+				<div id="stoel-D-car-item-margin" style="background-image: url('../_images/in-opdracht-large<? echo $id;?>-4.jpg'); " loading="lazy">
 					&nbsp;
 				</div>
 				<? } ?>					
 				<? if ($images >"4"){?>
-				<div id="stoel-D-car-item-margin" style="background-image: url('../_images/in-opdracht-large<? echo $id;?>-5.jpg'); ">
+				<div id="stoel-D-car-item-margin" style="background-image: url('../_images/in-opdracht-large<? echo $id;?>-5.jpg'); " loading="lazy">
 					&nbsp;
 				</div>
 				<? } ?>	

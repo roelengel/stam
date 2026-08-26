@@ -77,6 +77,7 @@ h1 a{text-decoration:none;}
 #tag-regio-M{background-color: #AAE0C9; height:26px; color:#230702; font-size:14px; text-transform: uppercase; border-radius: 30px; padding: 5px 10px 5px 10px;}
 	#tag-regio-M a{color:#230702; text-decoration: none;}
 
+.review_afzender{font-size:14px; text-transform: uppercase;}
 .s18{font-size:18px;}
 .s24{font-size:24px;}
 .s30-small-margin{font-size:30px; margin: 10px 0; /* boven 10px, onder 10px */}
@@ -292,6 +293,20 @@ h1 a{text-decoration:none;}
 	#contact-D-acc-3 a{text-decoration: underline; color: #ffffff;}#contact-M-acc-3 a:hover{text-decoration: underline; color: #ffffff;}
 #contact-D-acc-left{width:90%; float:left; text-align:left;}
 #contact-D-acc-right{width:10%; float:left; text-align:right;}
+
+/* Regio uitgelicht item en Review */
+#uitgelichte-case-D-content-1{width:30%;   float:left; }
+#uitgelichte-case-D-content-2{width:42%;  margin-left:5%;text-align:left;  float:left;  }
+#review{width: 90%; border-radius: 15px 15px 0px 15px; padding: 5%; background-color:#5EC79C; color:#230702; line-height: 1.3;}
+#review-M{width: 90%; border-radius: 15px 15px 0px 15px; padding: 5%; background-color:#5EC79C; color:#230702;line-height: 1.3;}
+.uitgelicht-image-container { height: 550px; width: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center;}
+.uitgelicht-image-container a {display: block;width: 100%;height: 100%;}
+.uitgelicht-image-D { width: 100%; height: 100%; object-fit: cover; border-radius: 10px;}
+.uitgelicht-image-D:hover{ -webkit-filter:  brightness(70%);}
+
+.uitgelicht-image-container-M { height: 350px; width: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center;}
+.uitgelicht-image-container-M a {display: block;width: 100%;height: 100%;}
+.uitgelicht-image-M { width: 100%; height: 100%; object-fit: cover; border-radius: 10px;}
 
 
 

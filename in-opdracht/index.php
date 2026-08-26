@@ -167,12 +167,105 @@
 		<div id="space_50"></div>
 		
 		
+<!--CATEGORIEEN DESKTOP  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
+		<div id="header-D">
+			<div id="space_50"></div>
+			<div id="header-D-content">
+				<div id="header-D-content-left">
+						<h1 class="s36" style="margin-top:5px;">Wat wil jij laten stofferen?</h1></a>
+						<div id="space_10"></div>
+				</div>
+			</div>
+			<div id="space_1"></div>
+		</div>
+		<div id="categorien-D">
+			<div id="categorie-D" style="background-image: url(../../_images/categorie-stoel.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/stoelen-eetkamerstoelen-stofferen/">
+					<div id="categorie-D-text">
+						Stoelen en eetkamerstoelen
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-horeca.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/stofferen-in-de-horeca/">
+					<div id="categorie-D-text">
+						<span class="tag-category">Zakelijk</span>
+						Horeca terrasen en horeca binnen
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-fauteuil.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/fauteuil-stofferen/">
+					<div id="categorie-D-text">
+						Fauteuils
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<div id="space_50"></div>
+
+		<div id="categorien-D">
+			<div id="categorie-D" style="background-image: url(../../_images/categorie-caravan.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/caravans-stacaravans-campers-stofferen/">
+					<div id="categorie-D-text">
+						Caravans, stacaravans en campers
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-sportclub.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/sportkantines-fitnessapparaten-stofferen/">
+					<div id="categorie-D-text">
+						<span class="tag-category">Zakelijk</span>
+						Sportkantines en fitnessapparaten
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-tuinkussens-beeld04.jpg); background-size:100%; background-position: top center;">
+				<a href="../../stofferen/tuinkussens-laten-maken/">
+					<div id="categorie-D-text">
+						Tuinkussens
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+		</div>	
+	
+		<div id="space_50"></div>
+
+		<div id="categorien-D">
+			<div id="categorie-D" style="background-image: url(../../_images/categorie-boot.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/bootkussens-laten-maken/">
+					<div id="categorie-D-text">
+						Bootkussens
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-eetkamerbank.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/eetkamerbank-op-maat-stofferen/">
+					<div id="categorie-D-text">
+						Eetkamerbanken op maat
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+		</div>	
+	
+		<div id="space_50"></div>
+		
+		
+		
 <!--stoffenkiezer desktop   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
 		<div id="header-D-blue">
 			<div id="space_20"></div>
 			<div id="space_10"></div>
 			<div id="header-D-content">
-				<div id="header-D-content-center">
 						<h1 class="s36 ">Op zoek naar een mooie stof?</h1>
 						Kies eenvoudig een stof uit. Zoek je iets anders laat het ons weten.<br>
 						Wij werken samen met meerdere leveranciers
@@ -180,13 +273,12 @@
 						<button class="button-white-line button-desktop w200" onclick="location.href='../stoffenkiezer'">Stoffenkiezer</button>
 						<div id="space_50"></div>
 					
-				</div>
 			</div>
 			<div id="space_1"></div>
 		</div>
 			
 		<div id="carr-D-blue">
-			<div id="carr-D-type1c-firstspace"><div id="space_3"></div></div><div id="carr-D-type1">
+			<div id="carr-D-type1-firstspace"><div id="space_3"></div></div><div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../stoffenkiezer/index.php?category=effen" alt="stof - effen teal">
 					<img src="../_images/stof1.jpg" class="car-image" >
@@ -256,14 +348,24 @@
 		
 			
 						
-<!-- desktop STOELEN  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
-		<div id="content-D">
-			<div id="content-D-content">
-				<div id="space_20"></div>
-				<h1 class="s36 ">Mijn werk</h1>
-				Bekijk hieronder een greep uit mijn stoffeerklussen in opdracht.
-				<div id="space_1"></div>
-				<? $counter = "0";?>
+<!--PORTFOLIO DESKTOP   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
+		<div id="header-D-dark">
+			<div id="space_50"></div>
+			<div id="header-D-content">
+				<div id="header-D-content-1">
+					<div id="header-D-content-2-text">
+						<h2 class="s36 ">Mijn werk</h2>
+						Bekijk hieronder een greep uit mijn stoffeerklussen in opdracht.
+					</div>					
+
+				</div>
+			</div>
+			<div id="space_1"></div>
+		</div>
+		<div id="carr-D-dark">
+			
+			<div id="carr-D-type1b-firstspace">&nbsp;</div> 
+
 <?
 				$sql->Query("SELECT * FROM stoelen WHERE  type = 'in_opdracht' ORDER BY id DESC");
 						for ($i = 0; $i < $sql->rows; $i++) {
@@ -277,36 +379,30 @@
 							$counter = $counter +1;
 							
 ?>
-							<div id="gallery-D-item">
-								<a href="stoel.php?id=<? echo $id;?>" class="link-white">
-										<img src="../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" class="car-image" alt="<? echo $title;?>">
-										<div id="space_20"></div>
-										<div id="gallery-D-item-title-50"><? echo $title;?></div>
-										<div id="space_20"></div>
-
-								</a>
-							</div>
-				<? if ($counter != 4 && $counter != 8 && $counter != 12  && $counter != 16  && $counter != 20  && $counter != 24 && $counter != 28   && $counter != 32  && $counter != 36   ){?><div id="gallery-D-space">&nbsp;</div><?}?>				
-
-				
-				
+						<div id="carr-D-type1">
+							<div id="space_50"></div>
+							<a href="stoel.php?id=<? echo $id;?>">
+								<img src="../../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" class="car-image"  alt="<? echo $title;?>" >
+								<div id="caroussel-D-title"><? echo $title;?></div>
+							</a>
+						</div>
+						<div id="carr-D-type1-space">&nbsp;</div>
 <?
 						}
 
-?>					
-
-				<div id="space_50"></div>
-				<div id="space_20"></div>
-				
-				
-				
-			</div>
+?>				
+			
+			
+			<div id="carr-D-type1-space">&nbsp;</div>
+			
+			
+			<div id="space_50"></div>
 		</div>
 		
 <!--NEEM CONTACT OP dekstop  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
 		<div id="neem-contact-op-D">
 			<div id="neem-contact-op-D-content">
-				<div id="space_20"></div>
+				<div id="space_50"></div>
 				<div id="space_10"></div>
 				<h2>Wil jij iets laten stofferen?</span></h2>
 				Ik ben heel goed te bereiken. Geen ingewikkelde formulieren. Stuur mij een bericht per WhatsApp, mail of Instagram en ik reageer zo snel mogelijk!<br><br>
@@ -500,10 +596,143 @@
 			</div>
 
 		</div>	
-		
-	
+
+
+<!--CONTACT MOBIEL   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+		<div id="meer-eigen-lijn-M">
+				<div id="space_50"></div>
+				<div id="meer-eigen-lijn-M-content">
+					<span style="font-size:24px; font-weight:900;">Wil jij iets laten stofferen?</span>
+					<div id="space_20"></div>
+					<div id="space_10"></div>
+
+					
+					<div style="clear:both; width:100%;">
+						<div style="width:25%; float:left;">
+							<img src="../_images/nina-small2.jpg" style="width:100%; border-radius: 100px;">
+						</div>
+						<div style="width:5%; float:left;"> &nbsp;</div>
+						<div style="width:70%; float:left;">
+							Ik ben heel goed te bereiken. Geen ingewikkelde formulieren. Stuur mij een bericht per WhatsApp, mail of Instagram en ik reageer zo snel mogelijk!
+						</div>
+					
+					
+					</div>
+					
+					<div id="space_20"></div>
+					<div id="contact-M-acc-1">
+						<a href="https://wa.me/31643094294">
+							<div id="space_20"></div>
+							<div id="contact-M-acc-left">Stuur een WhatsApp</div>
+							<div id="contact-M-acc-right"><div id="space_3"></div><img src="../_images/forward.png" style="height: 13px;"></div>
+							<div id="space_20"></div>
+						</a>
+					</div>
+					<div id="contact-M-acc-2">
+						<a href="mailto:nina@stamstoffeeratelier.nl">
+							<div id="space_20"></div>
+							<div id="contact-M-acc-left">Stuur een mail</div>
+							<div id="contact-M-acc-right"><div id="space_3"></div><img src="../_images/forward.png" style="height: 13px;"></div>
+							<div id="space_20"></div>
+						</a>
+					</div>					
+					<div id="contact-M-acc-3">
+						<a href="https://www.instagram.com/nina.stoffeert/">
+							<div id="space_20"></div>
+							<div id="contact-M-acc-left">Stuur een DM via Instagram</div>
+							<div id="contact-M-acc-right"><div id="space_3"></div><img src="../_images/forward.png" style="height: 13px;"></div>
+							<div id="space_20"></div>
+						</a>
+					</div>
+				</div>
+		</div>
+
+<!--Mobile categorieen  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+		<div id="space_50_eigenlijn_anchor"></div>		
+		<div id="blok-top-M" class="dark-text">
+			<div id="blok-top-M-title">
+				<a href="eigen-lijn/" style="color: #230702; text-decoration:none;"><h1 class="s24" style="margin-top:5px;">Wat wil jij laten stofferen?</h1></a>
+			</div>
+			<div id="space_10"></div>
+			
+			<div id="caroussel-L-M">
+				<div id="caroussel-M-emptyitem">&nbsp;</div>
+
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-stoel.jpg); background-size:100%;">					
+					<a href="../../stofferen/stoelen-eetkamerstoelen-stofferen/">
+						<div id="category-M">
+							Stoelen en eetkamerstoelen<br><br>
+						</div>
+					</a>
+				</div>
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-horeca.jpg); background-size:100%;">					
+					<a href="../../stofferen/stofferen-in-de-horeca/">
+						<div id="category-M">
+							<span class="tag-category">Zakelijk</span>
+							Horeca terrassen en horeca binnen<br><br>
+						</div>
+					</a>
+				</div>	
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-fauteuil.jpg); background-size:100%;">					
+					<a href="../../stofferen/fauteuil-stofferen/">
+						<div id="category-M">
+							Fauteuils<br><br>
+						</div>
+					</a>
+				</div>						
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-caravan.jpg); background-size:100%;">					
+					<a href="../../stofferen/caravans-stacaravans-campers-stofferen/">
+						<div id="category-M">
+							Caravans, stacaravans en campers<br><br>
+						</div>
+					</a>
+				</div>	
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-sportclub.jpg); background-size:100%;">					
+					<a href="../../stofferen/sportkantines-fitnessapparaten-stofferen/">
+						<div id="category-M">
+							<span class="tag-category">Zakelijk</span>
+							Sportkantines en fitnessapparaten<br><br>
+						</div>
+					</a>
+				</div>	
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-tuinkussens.jpg); background-size:100%;">					
+					<a href="../../stofferen/tuinkussens-laten-maken/">
+						<div id="category-M">
+							Tuinkussens<br><br>
+						</div>
+					</a>
+				</div>					
+
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-boot.jpg); background-size:100%;">					
+					<a href="../../stofferen/bootkussens-laten-maken/">
+						<div id="category-M">
+							Bootkussens<br><br>
+						</div>
+					</a>
+				</div>
+				
+				<div id="caroussel-L-M-item-category" class="slide-in-M" style="background-image: url(../../_images/categorie-eetkamerbank.jpg); background-size:100%;">					
+					<a href="../../stofferen/eetkamerbank-op-maat-stofferen">
+						<div id="category-M">
+							Eetkamerbanken en op maat banken<br><br>
+						</div>
+					</a>
+				</div>
+								
+				
+				<div id="caroussel-L-M-emptyitem">&nbsp;</div>
+				
+			</div>
+			<div id="space_50"></div>
+		</div>	
+
+
 <!--Mobile blok Stoffenkiezer   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
-		<div id="space_50"></div>
 		<div id="blok-bottom-M" class="bg-color-stoffenkiezer white-text">
 			<div id="space_20"></div>
 			<div id="space_10"></div>
@@ -565,18 +794,25 @@
 		
 		
 		
-<!--Mijn werk mobile  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
-		<div id="pagina-M">
+<!--PORTFOLIO MOBIEL   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+		<div id="blok-top-M" class="bg-color-dark1 white-text">
 			<div id="space_20"></div>
-			<div id="pagina-M-content">
-				<h2 class="s24">Mijn werk</h2>
-				Bekijk hieronder een greep uit mijn stoffeerklussen in opdracht.
-				<div id="space_20"></div>
+			<div id="space_10"></div>
+			<div id="blok-top-M-title">
+				<a href="in-opdracht/"><h2 class="s24 white-text" style="text-decoration:none;">Mijn werk</h1></a>
 			</div>
-			
+			<div id="blok-top-M-subtitle">
+				Bekijk hieronder een greep uit mijn stoffeerklussen in opdracht.		
+			</div>
 		</div>
-		
-		
+	
+		<div id="blok-bottom-M" class="bg-color-dark1 white-text">
+
+			
+			<div id="caroussel-M">
+				<div id="space_20"></div>
+				<div id="caroussel-M-emptyitem">&nbsp;</div>
+				
 <?
 					$sql->Query("SELECT * FROM stoelen WHERE  type = 'in_opdracht' ORDER BY id DESC");
 						for ($i = 0; $i < $sql->rows; $i++) {
@@ -589,29 +825,24 @@
 							$color = $sql->data[color];
 							
 ?>
-							<div id="list-item-M">
-								<a href="stoel.php?id=<? echo $id;?>" class="link-white">
-									<div id="list-item-inopdracht-M-left">
-										<img src="../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" class="border-S"  alt="<? echo $title;?>" >
-									</div>
-									<div id="list-item-inopdracht-M-right">
-										<div id="space_90"></div>
-										<div id="list-item-M-right-title2"><? echo $title;?></div>
-									</div>
-
-								</a>
-							</div>
-							<div id="space_20"></div>
-
 				
-				
+						<div id="caroussel-M-item" class="slide-in-M">
+							<a href="../stoel.php?id=<? echo $id;?>">
+								<img src="../../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" alt="<? echo $title;?>" class="car-image" >
+								<div id="caroussel-M-title"><? echo $title;?></div>
+							</a>
+						</div>				
 <?
 						}
 
-?>		
+?>					
+				<div id="caroussel-L-M-emptyitem">&nbsp;</div>
+				<div id="space_20"></div>
+			</div>
+			<div id="space_50"></div>
+		</div>
 		
-		
-		
+<!--CONTACT MOBIEL   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
 		<div id="meer-eigen-lijn-M">
 				<div id="space_50"></div>
 				<div id="meer-eigen-lijn-M-content">
@@ -705,8 +936,9 @@
 								newWidth = ((window.innerWidth -1400) /2) + 'px';
 							}
 
-							document.getElementById("carr-D-type1c-firstspace").style.width = newWidth;
-
+							document.getElementById("carr-D-type1-firstspace").style.width = newWidth;
+							document.getElementById("carr-D-type1b-firstspace").style.width = newWidth;
+							document.getElementById("carr-D-type2-firstspace").style.width = newWidth;
 						}
 
 						updateSize();
@@ -714,7 +946,7 @@
 
 						
 						
-					</script>			
+					</script>				
 		
 		
 	</body>

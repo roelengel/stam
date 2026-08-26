@@ -244,6 +244,100 @@
 	
 		
 		<div id="space_50"></div>
+
+<!--CATEGORIEEN DESKTOP  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
+		<div id="header-D">
+			<div id="space_50"></div>
+			<div id="header-D-content">
+				<div id="header-D-content-left">
+						<h1 class="s36" style="margin-top:5px;">Wat wil jij laten stofferen?</h1></a>
+						<div id="space_10"></div>
+				</div>
+			</div>
+			<div id="space_1"></div>
+		</div>
+		<div id="categorien-D">
+			<div id="categorie-D" style="background-image: url(../../_images/categorie-stoel.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/stoelen-eetkamerstoelen-stofferen/">
+					<div id="categorie-D-text">
+						Stoelen en eetkamerstoelen
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-horeca.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/stofferen-in-de-horeca/">
+					<div id="categorie-D-text">
+						<span class="tag-category">Zakelijk</span>
+						Horeca terrasen en horeca binnen
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-fauteuil.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/fauteuil-stofferen/">
+					<div id="categorie-D-text">
+						Fauteuils
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<div id="space_50"></div>
+
+		<div id="categorien-D">
+			<div id="categorie-D" style="background-image: url(../../_images/categorie-caravan.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/caravans-stacaravans-campers-stofferen/">
+					<div id="categorie-D-text">
+						Caravans, stacaravans en campers
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-sportclub.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/sportkantines-fitnessapparaten-stofferen/">
+					<div id="categorie-D-text">
+						<span class="tag-category">Zakelijk</span>
+						Sportkantines en fitnessapparaten
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-tuinkussens-beeld04.jpg); background-size:100%; background-position: top center;">
+				<a href="../../stofferen/tuinkussens-laten-maken/">
+					<div id="categorie-D-text">
+						Tuinkussens
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+		</div>	
+	
+		<div id="space_50"></div>
+
+		<div id="categorien-D">
+			<div id="categorie-D" style="background-image: url(../../_images/categorie-boot.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/bootkussens-laten-maken/">
+					<div id="categorie-D-text">
+						Bootkussens
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+			<div id="categorie-D" class="categorie-D-space" style="background-image: url(../../_images/categorie-eetkamerbank.jpg); background-size:100%; background-position: center center;">
+				<a href="../../stofferen/eetkamerbank-op-maat-stofferen/">
+					<div id="categorie-D-text">
+						Eetkamerbanken op maat
+						<div id="space_30"></div>
+					</div>
+				</a>
+			</div>
+		</div>	
+	
+		<div id="space_50"></div>
+		
+		
 		
 		
 <!--stoffenkiezer desktop   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
@@ -263,7 +357,7 @@
 		</div>
 			
 		<div id="carr-D-blue">
-			<div id="carr-D-type1c-firstspace"><div id="space_3"></div></div><div id="carr-D-type1">
+			<div id="carr-D-type1-firstspace"><div id="space_3"></div></div><div id="carr-D-type1">
 				<div id="space_50"></div>
 				<a href="../../stoffenkiezer/index.php?category=effen">
 					<img src="../../_images/stof1.jpg" class="car-image" alt="stof - effen teal" >
@@ -338,25 +432,79 @@
 		
 		
 <!--PORTFOLIO DESKTOP   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 
+
+<!--check of er een lokale case is  --> 
+<?
+			$uitgelicht_id = 10000;//deze code staat er omdat bij geen lokaal id de meer cases niet werkt; hier willen we nl geen highlight case tonen omdat je dan 2 keer hetzelfde ziet
+								  
+			$sql->Query("SELECT id FROM stoelen WHERE plaatsnaam = '$regio' LIMIT 1");
+					if ($sql->rows > 0) {
+
+						$sql->Query("SELECT * FROM stoelen WHERE plaatsnaam = '$regio' ORDER BY id DESC LIMIT 1");
+						$sql->Fetch(0);
+						$uitgelicht_id = $sql->data[id];
+						$uitgelicht_title = $sql->data[title];
+						$uitgelicht_images = $sql->data[images];
+						$uitgelicht_meer_info = $sql->data[meer_info];
+						$uitgelicht_plaatsnaam = $sql->data[plaatsnaam];
+						$uitgelicht_review = $sql->data[review];
+						$uitgelicht_review_afzender = $sql->data[review_afzender];
+					 
+?>
+					<div id="header-D-dark">
+						<div id="space_50"></div>
+						<div id="header-D-content">
+							
+							<div id="uitgelichte-case-D-content-1" class="uitgelicht-image-container">
+								<a href="../stoel.php?id=<? echo $uitgelicht_id;?>">
+									<img src="../../_images/in-opdracht-large<? echo $uitgelicht_id;?>-1.jpg"
+										 class="uitgelicht-image-D"
+										 alt="<? echo $title;?>">
+								</a>
+							</div>
+
+							<div id="uitgelichte-case-D-content-2">
+								<h2 class="s36 ">Wat ik in <? echo $regio;?> heb gestoffeerd</h2>
+								<h3 class="s24 "><? echo $uitgelicht_title;?></h3>
+								<? echo $uitgelicht_meer_info;?>
+								<div id="space_50"></div>
+								
+								<div id="review">
+									<i>"<? echo $uitgelicht_review;?>"</i>
+									<div id="space_20"></div>
+									<span class="review_afzender"><? echo $uitgelicht_review_afzender;?> &nbsp; | &nbsp; <? echo $regio;?></span>
+								</div>
+
+							</div>
+						</div>
+
+						<div id="space_1"></div>
+					</div>	
+<?								  
+					}else {
+						// geen enkele rij met plaatsnaam = $regio gevonden
+					}
+?>		
+	
+	
+<!--meer cases  --> 
 		<div id="header-D-dark">
 			<div id="space_50"></div>
 			<div id="header-D-content">
 				<div id="header-D-content-1">
 					<div id="header-D-content-2-text">
-						<h2 class="s36 ">Mijn werk</h1>
-						Bekijk hieronder een greep uit mijn stoffeerklussen in opdracht.
+						<h2 class="s36 ">Bekijk mijn werk</h2>
 					</div>					
-
 				</div>
 			</div>
 			<div id="space_1"></div>
 		</div>
 		<div id="carr-D-dark">
 			
-			<div id="carr-D-type1c-firstspace">&nbsp;</div> 
+			<div id="carr-D-type1b-firstspace">&nbsp;</div> 
 
 <?
-				$sql->Query("SELECT * FROM stoelen WHERE  type = 'in_opdracht' ORDER BY id DESC");
+				$sql->Query("SELECT * FROM stoelen WHERE  type = 'in_opdracht' AND id != $uitgelicht_id ORDER BY id DESC");
 						for ($i = 0; $i < $sql->rows; $i++) {
 							$sql->Fetch($i);
 							$id = $sql->data[id];
@@ -369,7 +517,7 @@
 							
 ?>
 						<div id="carr-D-type1">
-							<div id="space_50"></div>
+							<div id="space_10"></div>
 							<a href="../stoel.php?id=<? echo $id;?>">
 								<img src="../../_images/in-opdracht-car<? echo $id;?>.jpg" style="width:100%;" class="car-image"  alt="<? echo $title;?>" >
 								<div id="caroussel-D-title"><? echo $title;?></div>
@@ -385,6 +533,7 @@
 			<div id="carr-D-type1-space">&nbsp;</div>
 			
 			
+			<div id="space_50"></div>
 			<div id="space_50"></div>
 		</div>
 		
@@ -829,23 +978,72 @@
 	
 
 	
-<!--PORTFOLIO   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+<!--PORTFOLIO MOBIEL   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
+<!--check of er een lokale case is  --> 
+<?
+			$uitgelicht_id = 10000;//deze code staat er omdat bij geen lokaal id de meer cases niet werkt; hier willen we nl geen highlight case tonen omdat je dan 2 keer hetzelfde ziet
+								  
+			$sql->Query("SELECT id FROM stoelen WHERE plaatsnaam = '$regio' LIMIT 1");
+					if ($sql->rows > 0) {
+
+						$sql->Query("SELECT * FROM stoelen WHERE plaatsnaam = '$regio' ORDER BY id DESC LIMIT 1");
+						$sql->Fetch(0);
+						$uitgelicht_id = $sql->data[id];
+						$uitgelicht_title = $sql->data[title];
+						$uitgelicht_images = $sql->data[images];
+						$uitgelicht_meer_info = $sql->data[meer_info];
+						$uitgelicht_plaatsnaam = $sql->data[plaatsnaam];
+						$uitgelicht_review = $sql->data[review];
+						$uitgelicht_review_afzender = $sql->data[review_afzender];
+					 
+?>
+					<div id="blok-top-M" class="bg-color-dark1 white-text">
+						<div id="space_30"></div>
+							<div id="blok-top-M-title">
+								<h2>Wat ik in <? echo $regio;?> heb gestoffeerd</h2>
+							</div>
+							<div id="blok-top-M-subtitle" class="uitgelicht-image-container-M">
+								<a href="../stoel.php?id=<? echo $uitgelicht_id;?>">
+									<img src="../../_images/in-opdracht-large<? echo $uitgelicht_id;?>-1.jpg" class="uitgelicht-image-M" alt="<? echo $title;?>">
+								</a>
+							</div>
+
+							<div id="blok-top-M-subtitle">
+								<h3 class="s18"><? echo $uitgelicht_title;?></h3>
+								<? echo $uitgelicht_meer_info;?>
+								<div id="space_20"></div>
+								
+								<div id="review-M">
+									<i>"<? echo $uitgelicht_review;?>"</i>
+									<div id="space_20"></div>
+									<span class="review_afzender"><? echo $uitgelicht_review_afzender;?> &nbsp; | &nbsp; <? echo $regio;?></span>
+								</div>
+							</div>
+						</div>
+
+					</div>	
+<?								  
+					}else {
+						// geen enkele rij met plaatsnaam = $regio gevonden
+					}
+?>		
+	
+	
+<!--meer cases  --> 
 		<div id="blok-top-M" class="bg-color-dark1 white-text">
 			<div id="space_20"></div>
 			<div id="space_10"></div>
 			<div id="blok-top-M-title">
-				<a href="in-opdracht/"><h2 class="s24 white-text" style="text-decoration:none;">Mijn werk</h1></a>
+				<h2 class="s24 white-text" style="text-decoration:none;">Bekijk mijn werk</h2>
 			</div>
-			<div id="blok-top-M-subtitle">
-				Bekijk hieronder een greep uit mijn stoffeerklussen in opdracht.		
-			</div>
+			<div id="space_1"></div>
 		</div>
 	
 		<div id="blok-bottom-M" class="bg-color-dark1 white-text">
 
 			
 			<div id="caroussel-M">
-				<div id="space_20"></div>
+				<div id="space_1"></div>
 				<div id="caroussel-M-emptyitem">&nbsp;</div>
 				
 <?
@@ -973,8 +1171,9 @@
 								newWidth = ((window.innerWidth -1400) /2) + 'px';
 							}
 
-							document.getElementById("carr-D-type1c-firstspace").style.width = newWidth;
-
+							document.getElementById("carr-D-type1-firstspace").style.width = newWidth;
+							document.getElementById("carr-D-type1b-firstspace").style.width = newWidth;
+							document.getElementById("carr-D-type2-firstspace").style.width = newWidth;
 						}
 
 						updateSize();
@@ -982,7 +1181,7 @@
 
 						
 						
-					</script>			
+					</script>		
 		
 		
 	</body>
