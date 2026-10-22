@@ -15,7 +15,8 @@
 		<meta property="og:title" content="<? echo $meta_title;?>">
 		<meta property="og:image" content="https://www.stamstoffeeratelier.nl/_images/social.jpg">	
 		
-	
+		<link rel="canonical" href="https://www.stamstoffeeratelier.nl/in-opdracht/<?=ucfirst($regio);?>/">
+		
 		<!--adobe font   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||    --> 	
 		<link rel="stylesheet" href="https://use.typekit.net/vna7rrh.css">
 		
@@ -457,9 +458,7 @@
 							
 							<div id="uitgelichte-case-D-content-1" class="uitgelicht-image-container">
 								<a href="../stoel.php?id=<? echo $uitgelicht_id;?>">
-									<img src="../../_images/in-opdracht-large<? echo $uitgelicht_id;?>-1.jpg"
-										 class="uitgelicht-image-D"
-										 alt="<? echo $title;?>">
+									<img src="../../_images/in-opdracht-large<? echo $uitgelicht_id;?>-1.jpg" class="uitgelicht-image-D" alt="<? echo $uitgelicht_title;?>">
 								</a>
 							</div>
 
@@ -474,7 +473,17 @@
 									<div id="space_20"></div>
 									<span class="review_afzender"><? echo $uitgelicht_review_afzender;?> &nbsp; | &nbsp; <? echo $regio;?></span>
 								</div>
-
+								<script type="application/ld+json">
+								{
+								  "@context": "https://schema.org",
+								  "@type": "Review",
+								  "itemReviewed": { "@type": "LocalBusiness", "name": "Stam Stoffeeratelier" },
+								  "name": <? echo json_encode($uitgelicht_title); ?>,
+								  "reviewBody": <? echo json_encode($uitgelicht_review); ?>,
+								  "author": { "@type": "Person", "name": <? echo json_encode($uitgelicht_review_afzender); ?> }
+								}
+								</script>
+							
 							</div>
 						</div>
 
@@ -1004,7 +1013,7 @@
 							</div>
 							<div id="blok-top-M-subtitle" class="uitgelicht-image-container-M">
 								<a href="../stoel.php?id=<? echo $uitgelicht_id;?>">
-									<img src="../../_images/in-opdracht-large<? echo $uitgelicht_id;?>-1.jpg" class="uitgelicht-image-M" alt="<? echo $title;?>">
+									<img src="../../_images/in-opdracht-large<? echo $uitgelicht_id;?>-1.jpg" class="uitgelicht-image-M" alt="<? echo $uitgelicht_title;?>">
 								</a>
 							</div>
 
@@ -1018,6 +1027,16 @@
 									<div id="space_20"></div>
 									<span class="review_afzender"><? echo $uitgelicht_review_afzender;?> &nbsp; | &nbsp; <? echo $regio;?></span>
 								</div>
+								<script type="application/ld+json">
+								{
+								  "@context": "https://schema.org",
+								  "@type": "Review",
+								  "itemReviewed": { "@type": "LocalBusiness", "name": "Stam Stoffeeratelier" },
+								  "name": <? echo json_encode($uitgelicht_title); ?>,
+								  "reviewBody": <? echo json_encode($uitgelicht_review); ?>,
+								  "author": { "@type": "Person", "name": <? echo json_encode($uitgelicht_review_afzender); ?> }
+								}
+								</script>
 							</div>
 						</div>
 
